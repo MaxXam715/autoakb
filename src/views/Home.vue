@@ -1,5 +1,5 @@
 <template lang="pug">
-  .page
+  .page.main_page
     h3 hello world from home
 </template>
 
@@ -7,3 +7,7 @@
 export default {
 }
 </script>
+
+<style lang="less">
+
+</style>

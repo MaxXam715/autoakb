@@ -4,4 +4,5 @@
 </template>
 
 <style lang="less">
+@import "./assets/less/main";
 </style>
