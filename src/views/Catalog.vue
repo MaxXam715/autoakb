@@ -1,6 +1,6 @@
 <template lang="pug">
-  .page.home_page
-    h3 home
+  .page.catalog_page
+    h3 catalog
 </template>
 
 <script>
