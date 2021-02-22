@@ -1,6 +1,6 @@
 <template lang="pug">
-  .main-footer
-    .test
+  //.main-footer
+  //  .test
 </template>
 
 <script>

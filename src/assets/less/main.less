@@ -1,3 +1,86 @@
-body{
-  background: #fff;
+@charset "UTF-8";
+
+@color: #000;
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: 'Gotham Pro';
+  box-sizing: border-box;
+  background: #FAF9FE;
+  overflow-x: hidden;
 }
+
+/* скроллбар */
+::-webkit-scrollbar { width: 6px; height: 6px; cursor: pointer;}
+/* кнопка */
+::-webkit-scrollbar-button {  display: none; }
+/* трек */
+::-webkit-scrollbar-track {  background-color: transparent;  cursor: pointer;}
+/* видимая часть трека */
+::-webkit-scrollbar-track-piece { background-color: transparent;  cursor: pointer;}
+/* ползунок */
+::-webkit-scrollbar-thumb { height: 50px;  cursor: pointer; background-color: var(--c_orange); border-radius: 30px; cursor: pointer;}
+/* уголок */
+::-webkit-scrollbar-corner { display: none;}
+/* изменение размеров */
+::-webkit-resizer { background-color: red; cursor: pointer;}
+
+
+body * {
+  outline: none;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: ""Gotham Pro Bold"";
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: normal!important;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.w1360 {
+  max-width: 1360px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.margin20vh {
+  margin: 20vh auto;
+}
+
+.h2_zag {
+  text-align: center;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #000000;
+
+}
+
+.h2_zag span {
+  color: var(--c_orange);
+}
+
+
+
+/*  */

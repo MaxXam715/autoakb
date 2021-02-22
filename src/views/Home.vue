@@ -1,11 +1,9 @@
-<template lang="pug">
-  .page.home_page
-    h3 home
+<template>
+  <div>123</div>
 </template>
 
 <script>
-export default {
-}
+
 </script>
 
 <style lang="less">
