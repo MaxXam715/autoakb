@@ -1,7 +1,12 @@
 <template>
-  <!--
-      router-link(:to="{name:'Home'}") Главная
-      router-link(:to="{name:'Catalog'}") Каталог -->
+
+  <!--  Шапка -->
+  <div class="header">
+    <a class="waves-effect waves-light btn">button</a>
+    <a class="waves-effect waves-light btn">button</a>
+    <a class="waves-effect waves-light btn">button</a>
+  </div>
+
 </template>
 
 <script>

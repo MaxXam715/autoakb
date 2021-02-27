@@ -10,7 +10,3 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app');
-
-// Подключаем и проверяем шрифт
-import bibi from './assets/fonts/Gilroy-Regular.woff';
-console.log(bibi);

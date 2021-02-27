@@ -1,6 +1,7 @@
-<template lang="pug">
-  .page.catalog_page
-    h3 catalog
+<template>
+  <!--
+      router-link(:to="{name:'Home'}") Главная
+      router-link(:to="{name:'Catalog'}") Каталог -->
 </template>
 
 <script>

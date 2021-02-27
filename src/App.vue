@@ -6,8 +6,12 @@
 </template>
 
 <script>
+
 import MainHeader from "@/components/MainHeader";
 import MainFooter from "@/components/MainFooter";
+import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/js/materialize.min';
+
 export default {
   components: {
     MainFooter,
@@ -21,3 +25,4 @@ export default {
   @import "./assets/fonts/fonts";
   @import "./assets/less/main";
 </style>
+
