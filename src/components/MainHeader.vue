@@ -1,14 +1,18 @@
 <template>
+  <div>
 
-  <!--  Шапка -->
-  <div class="header">
-    <p class="boooob">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dicta dolorem, earum et eveniet id modi mollitia nostrum nulla odio possimus quae quasi qui saepe suscipit tenetur ullam voluptate voluptatibus.</p>
+  <!-- ТОП-бар -->
+    <div class="top-bar">
+      <div class="container">
+        213
+      </div>
+    </div>
+  <!-- Конец - ТОП-бар -->
+
   </div>
-
 </template>
 
 <script>
-
 
 </script>
 

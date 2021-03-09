@@ -7,6 +7,14 @@
 
 <script>
 
+
+
+
+
+</script>
+
+<script>
+
 import MainHeader from "@/components/MainHeader";
 import MainFooter from "@/components/MainFooter";
 import 'materialize-css/dist/css/materialize.min.css';
