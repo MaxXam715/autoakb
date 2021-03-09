@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build && serve -s dist"
   },
   "dependencies": {
+    "jquery": "^3.6.0",
     "materialize-css": "^1.0.0-rc.2",
     "tailwindcss": "^2.0.3",
     "vue": "^2.6.11",
@@ -20,7 +21,8 @@
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "vue-cli-plugin-pug": "~2.0.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.46.0"
   },
   "browserslist": [
     "> 1%",
