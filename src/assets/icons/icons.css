@@ -1,0 +1,48 @@
+@charset "UTF-8";
+i.icon {
+    display: inline-block !important;
+    height: 1em !important;
+    width: 1em !important;
+    mask-size: contain !important;
+    mask-repeat: no-repeat !important;
+    mask-position: center !important;
+    background-size: 1em 1em !important;
+    background-color: #000000;
+}
+
+
+i.icon.map {
+    mask-image: url('map.svg')
+}
+
+i.icon.map2 {
+    mask-image: url('map2.svg')
+}
+
+i.icon.arrowRight {
+    mask-image: url('arrowRight.svg')
+}
+
+i.icon.arrowDown {
+    mask-image: url('arrowDown.svg')
+}
+
+i.icon.dot {
+    mask-image: url('dot.svg')
+}
+
+i.icon.mailOpen {
+    mask-image: url('mailOpen.svg')
+}
+
+i.icon.operator {
+    mask-image: url('operator.svg')
+}
+
+i.icon.whatsapp {
+    mask-image: url('whatsapp.svg')
+}
+
+i.icon.instagram {
+    mask-image: url('instagram.svg')
+}

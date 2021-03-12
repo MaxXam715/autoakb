@@ -145,6 +145,243 @@ h6 {
   margin: 0 auto;
   max-width: 1538px;
   width: 100%;
+  height: 100%;
 }
 
 // Конец - Общий контейнер
+
+
+
+// Свойства
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-Vcenter {
+  display: flex;
+  align-items: center;
+}
+
+.flex-Gcenter {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-Gcenter-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// Конец - Свойства
+
+
+
+// ТОП-бар
+
+.top-bar {
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.07);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-col {
+    max-width: 193px;
+    width: 100%;
+
+    i.icon.map {
+      background-color: @gray;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    .select-btn {
+
+      span {
+        color: @red;
+        border-bottom: 1px dashed @red;
+        width: max-content;
+        font-weight: 500;
+        padding-bottom: 1px;
+      }
+
+      i {
+        margin-left: 10px;
+        font-size: 10px;
+        background-color: @gray;
+      }
+
+    }
+
+    .dropdown-content {
+      width: auto !important;
+      padding: 10px 0;
+      max-width: 275px;
+      width: 100% !important;
+      box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.2);
+
+      li {
+        min-height: initial;
+
+        .link-city {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          color: #000;
+          font-weight: 500;
+          font-size: 15px;
+          padding: 10px 30px;
+
+          &.active {
+            color: @red;
+
+            i {
+              background-color: red;
+            }
+          }
+
+          i {
+            display: none;
+            background-color: transparent;
+            float: initial;
+            font-size: 6px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  // Сервисное меню
+  .service-menu {
+
+    a {
+      font-size: 14px;
+      color: @gray;
+      margin-right: 35px;
+      transition: all 0.2s;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        color: @red;
+      }
+    }
+  }
+  // Конец - Сервисное меню
+
+
+  // Контакты и обратная связь
+  .right-col.callback {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -50vw;
+      height: 100%;
+      width: 50vw;
+      z-index: 1;
+      background-color: @LightBlue;
+    }
+
+    .contact-us {
+      position: relative;
+      padding-left: 25px;
+      background-color: @LightBlue;
+      height: 100%;
+      margin-left: 40px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        max-height: 40px;
+        border: 20px solid transparent;
+        border-right: 0px solid @LightBlue;
+        border-bottom: 40px solid @LightBlue;
+      }
+
+
+
+        .link {
+          i {
+            margin-right: 20px;
+            font-size: 20px;
+            background-color: @red;
+
+            &.mailOpen {
+              font-size: 24px;
+            }
+          }
+
+          a {
+            font-size: 14px;
+            color: #000;
+            font-weight: bold;
+            border-bottom: 1px dashed @red;
+            transition: all 0.2s;
+
+            &:hover {
+              color: @red;
+            }
+          }
+        }
+
+      .line {
+        width: 1px;
+        height: 20px;
+        margin: 0 20px;
+        background-color: rgba(0,0,0, 0.1);
+      }
+    }
+
+  //  Соц. сети
+    .social-link {
+
+      i {
+        font-size: 20px;
+        background-color: @gray;
+
+        &.whatsapp:hover {
+          background-color: #0DC143;
+        }
+
+        &.instagram:hover {
+          background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+        }
+      }
+
+      .line {
+        width: 1px;
+        height: 20px;
+        margin: 0 20px;
+        background-color: rgba(0,0,0, 0.1);
+      }
+    }
+
+  }
+  // Конец - Контакты и обратная связь
+}
+
+// Конец - ТОП-бар
