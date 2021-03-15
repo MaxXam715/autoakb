@@ -7,8 +7,7 @@ import store  from './store';
 
 // Скрипты JS / JQ
 import './assets/script.js';
-
-
+import './assets/categories.js';
 
 Vue.config.productionTip = false;
 

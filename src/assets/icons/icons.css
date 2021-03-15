@@ -46,3 +46,23 @@ i.icon.whatsapp {
 i.icon.instagram {
     mask-image: url('instagram.svg')
 }
+
+i.icon.search {
+    mask-image: url('search.svg')
+}
+
+i.icon.phone {
+    mask-image: url('phone.svg')
+}
+
+i.icon.cart {
+    mask-image: url('cart.svg')
+}
+
+i.icon.menu {
+    mask-image: url('menu.svg')
+}
+
+i.icon.close {
+    mask-image: url('close.svg')
+}

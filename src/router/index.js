@@ -7,7 +7,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    meta: {title: 'Главная'},
+    meta: {title: 'AUTO AKB | Интернет магазин'},
 
     component:()=>import(/* webpackChunkName: "home" */ '../views/Home.vue')
   },

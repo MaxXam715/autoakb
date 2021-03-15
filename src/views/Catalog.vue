@@ -1,7 +1,8 @@
 <template>
-  <!--
-      router-link(:to="{name:'Home'}") Главная
-      router-link(:to="{name:'Catalog'}") Каталог -->
+      <div>
+
+        Каталог
+      </div>
 </template>
 
 <script>
