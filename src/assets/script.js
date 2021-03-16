@@ -47,36 +47,76 @@ $(document).ready(function() {
         outDuration: 500
     });
 
+    $('.product-catalog .list-categories .itemCat').mouseover(function () {
+        let imgSrc = $(this).attr('data-src');
+        $('.product-catalog .category-preview img').attr('src', imgSrc);
 
+        let srcClass = $('.product-catalog .category-preview .contain');
+        srcClass.removeClass('opacity_0');
+        srcClass.removeClass('animate__fadeOut');
+        srcClass.addClass('animate__fadeIn');
 
+        let srcClassGroup = $('.product-catalog .manufacturer .contain');
+        srcClassGroup.addClass('opacity_0');
+        srcClassGroup.addClass('animate__fadeOut');
+        srcClassGroup.removeClass('animate__fadeIn');
+    })
 
+    $('.product-catalog .list-categories .itemCat').mouseout(function () {
+        let srcClass = $('.product-catalog .category-preview .contain');
+        let proverka = $('.product-catalog .list-categories .itemCat');
 
-    $(categories.cat).each(function(index, item) {
-
-        let listCategories = $('.product-catalog .list-categories .group .list');
-        let categoryPreview = $('.product-catalog .category-preview');
-        let manufacturer = $('.product-catalog .manufacturer .group');
-        const output = categories.cat[0].manufacturer[0].models.map(user => user.nameManuf);
-
-
-        listCategories.append('<p data-src="' + item.photo + '"><span>' + item.number + '</span>' + item.name + '</p>');
-        manufacturer.append('<p class="letter">' + item.manufacturer[0].letter + '</p><div class="link"><a href="' + item.manufacturer[0].models[0].link + '">' + item.manufacturer[0].models[0].nameManuf + '</a></div>');
-
-
-
-        for(var i = 1; i < output.length; i++)
-        {
-            manufacturer.append('<p class="letter">' + item.manufacturer[0].letter + '</p><div class="link"><a href="#">' + output + '</a></div>');
+        if(!$(proverka).hasClass("active")) {
+            srcClass.addClass('opacity_0');
+            srcClass.addClass('animate__fadeOut');
+            srcClass.removeClass('animate__fadeIn');
         }
 
-
-
-        console.log(categories)
-        console.log(output);
+        $('.product-catalog .list-categories .itemCat').removeClass('active')
 
     });
 
+    $('.product-catalog .list-categories .itemCat').click(function () {
+
+        $(this).addClass('active');
+
+        let srcImg = $('.product-catalog .category-preview .contain');
+
+        srcImg.removeClass('opacity_0');
+        srcImg.removeClass('animate__fadeOut');
+        srcImg.addClass('animate__fadeIn');
+
+        let srcClass = $('.product-catalog .manufacturer .contain');
+        srcClass.removeClass('opacity_0');
+        srcClass.removeClass('animate__fadeOut');
+        srcClass.addClass('animate__fadeIn');
+
+    })
 
 
+
+
+
+    // $(categories.navigation).each(function(index, item) {
+    //
+    //     let listCategories = $('.product-catalog .list-categories .group .list');
+    //     let categoryPreview = $('.product-catalog .category-preview');
+    //     let manufacturer = $('.product-catalog .manufacturer');
+    //     const output = categories.navigation[0].group[0].models.map(user => user.nameLabel);
+    //
+    //
+    //     listCategories.append('<p data-src="' + item.photo + '"><span>' + item.number + '</span>' + item.name + '</p>');
+    //     manufacturer.append('<p class="letter">' + item.group[0].letter + '</p><div class="link"><a href="' + item.group[0].models[0].link + '">' + output + '</a></div>');
+    //
+    //     console.log(categories)
+    //     console.log(categories.navigation[0].name)
+    //     console.log(categories.navigation[0].group[0].models[0].nameLabel)
+    //
+    //     for(var i = 0; i < item.group[0].models.length; i++)
+    //         {
+    //             // manufacturer.append('<p class="letter">AAA</p><div class="link"><a href="#">' + item.group.models.nameLabel + '</a></div>');
+    //         }
+    //
+    //     });
 
 });

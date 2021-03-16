@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Аккумуляторы для транспорта !!!!!!",
+        "children": [
+            {
+                "title": "Авто аккумуляторы 1",
+                "photo": "/menu-category/01-prev-cat.png",
+                "brands": {
+                    "A":[
+                        {"title":"AFA 1", "link":"#link1"},
+                        {"title":"Atlas 1", "link":"#link2"}
+                    ],
+                    "B":[
+                        {"title":"Bentley 1", "link":"#link1"},
+                        {"title":"BMV 1", "link":"#link2"}
+                    ]
+                }
+            },
+            {
+                "title": "Авто аккумуляторы 1",
+                "photo": "/menu-category/02-prev-cat.png",
+                "brands": {
+                    "A":[
+                        {"title":"AFA 1", "link":"#link1"},
+                        {"title":"Atlas 1", "link":"#link2"}
+                    ],
+                    "B":[
+                        {"title":"Bentley 1", "link":"#link1"},
+                        {"title":"BMV 1", "link":"#link2"}
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "title": "Аккумуляторы для транспорта 2",
+        "children": [
+            {
+                "title": "Авто аккумуляторы 2",
+                "photo": "/menu-category/03-prev-cat.png",
+                "brands": {
+                    "A":[
+                        {"title":"AFA 2", "link":"#link1"},
+                        {"title":"Atlas 2", "link":"#link2"}
+                    ],
+                    "B":[
+                        {"title":"Bentley 2", "link":"#link1"},
+                        {"title":"BMV 2", "link":"#link2"}
+                    ]
+                }
+            }
+        ]
+    }
+]
