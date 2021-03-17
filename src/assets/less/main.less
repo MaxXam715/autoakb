@@ -666,7 +666,7 @@ header .index-info .container {
 .modal.product-catalog {
 
   width: 100vw;
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   max-width: initial;
   max-height: initial;
   color: #000;
@@ -712,7 +712,8 @@ header .index-info .container {
 
     .list-categories {
       border-right: 1px solid #E6E6E6;
-      overflow-x: auto;
+      opacity: 1;
+      transition: all 1s;
 
       &::-webkit-scrollbar-thumb { height: 50px;  cursor: pointer; background-color: transparent; border-radius: 30px; cursor: pointer;}
 
@@ -725,6 +726,7 @@ header .index-info .container {
           color: @gray;
           font-weight: bold;
           margin-bottom: 40px;
+          white-space: nowrap;
 
           &:after {
             content: '';
@@ -812,6 +814,13 @@ header .index-info .container {
         color: @gray;
         font-weight: bold;
         margin-bottom: 40px;
+
+        i {
+          display: none;
+          background-color: @red;
+          margin-right: 15px;
+          font-size: 23px;
+        }
       }
 
       .letter {
@@ -871,12 +880,9 @@ header .index-info .container {
 
 // Конец - Корзина
 
-
-
-
-
-
-
+.grid-navigation .animate__animated {
+  animation-duration: 0.7s;
+}
 
 // Мобильное меню ТОП-бар
 
@@ -885,3 +891,6 @@ header .index-info .container {
 }
 
 // Конец - Мобильное меню ТОП-бар
+
+
+

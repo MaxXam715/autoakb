@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+
     // Инициализация materialize UI
     M.AutoInit();
     // Инициализация Анимации при появлении на экране
@@ -90,10 +93,29 @@ $(document).ready(function() {
         srcClass.removeClass('opacity_0');
         srcClass.removeClass('animate__fadeOut');
         srcClass.addClass('animate__fadeIn');
-
     })
 
 
+    $('.open-catalog').click(function () {
+        if ($(window).width() < 700) {
+
+            let ListMenu = $('.product-catalog .list-categories');
+            let itemListMenu = $('.product-catalog .list-categories .itemCat');
+            let ListManufacturer = $('.product-catalog .manufacturer');
+            let itemListManufacturer = $('.product-catalog .manufacturer .title');
+            let gridNavigation = $('.product-catalog .grid-navigation');
+
+            itemListMenu.click(function () {
+                ListMenu.addClass('animate__fadeOutLeft').hide()
+                ListManufacturer.addClass('animate__slideInRight').fadeIn();
+            });
+
+            itemListManufacturer.click(function () {
+                ListMenu.removeClass('animate__fadeOutLeft').addClass('animate__fadeInLeft').fadeIn();
+                ListManufacturer.removeClass('animate__slideInRight').hide();
+            });
+        }
+    })
 
 
 

@@ -1,6 +1,5 @@
 @charset "UTF-8";
 i.icon {
-    display: inline-block !important;
     height: 1em !important;
     width: 1em !important;
     mask-size: contain !important;
@@ -65,4 +64,8 @@ i.icon.menu {
 
 i.icon.close {
     mask-image: url('close.svg')
+}
+
+i.icon.rowLightLeft {
+    mask-image: url('rowLightLeft.svg')
 }
