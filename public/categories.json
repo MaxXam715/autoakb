@@ -52,3 +52,27 @@
         ]
     }
 ]
+
+
+
+// $(categories.navigation).each(function(index, item) {
+//
+//     let listCategories = $('.product-catalog .list-categories .group .list');
+//     let categoryPreview = $('.product-catalog .category-preview');
+//     let manufacturer = $('.product-catalog .manufacturer');
+//     const output = categories.navigation[0].group[0].models.map(user => user.nameLabel);
+//
+//
+//     listCategories.append('<p data-src="' + item.photo + '"><span>' + item.number + '</span>' + item.name + '</p>');
+//     manufacturer.append('<p class="letter">' + item.group[0].letter + '</p><div class="link"><a href="' + item.group[0].models[0].link + '">' + output + '</a></div>');
+//
+//     console.log(categories)
+//     console.log(categories.navigation[0].name)
+//     console.log(categories.navigation[0].group[0].models[0].nameLabel)
+//
+//     for(var i = 0; i < item.group[0].models.length; i++)
+//         {
+//             // manufacturer.append('<p class="letter">AAA</p><div class="link"><a href="#">' + item.group.models.nameLabel + '</a></div>');
+//         }
+//
+//     });

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 i.icon {
+    display: inline-block;
     height: 1em !important;
     width: 1em !important;
     mask-size: contain !important;
@@ -68,4 +69,16 @@ i.icon.close {
 
 i.icon.rowLightLeft {
     mask-image: url('rowLightLeft.svg')
+}
+
+i.icon.mobBurger {
+    mask-image: url('mobBurger.svg')
+}
+
+i.icon.labelLogo {
+    mask-image: url('labelLogo.svg')
+}
+
+i.icon.akb {
+    mask-image: url('akb.svg')
 }

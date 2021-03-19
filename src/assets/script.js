@@ -1,3 +1,5 @@
+import Flickity from "flickity";
+
 $(document).ready(function() {
 
     let vh = window.innerHeight * 0.01;
@@ -10,7 +12,7 @@ $(document).ready(function() {
     $('.dropdown-trigger').dropdown();
 
     // Выбор города из шапки
-    $('.dropdown-content.city a').click(function () {
+    $('.dropdown-content.city a').click(function() {
         let $temp = $(this).text();
         let $city = $('.select-city .select-btn span');
 
@@ -29,8 +31,8 @@ $(document).ready(function() {
         var word_array, last_word, first_part;
 
         word_array = heading.html().split(/\s+/); // split on spaces
-        last_word = word_array.pop();             // pop the last word
-        first_part = word_array.join(' ');        // rejoin the first words together
+        last_word = word_array.pop(); // pop the last word
+        first_part = word_array.join(' '); // rejoin the first words together
 
         heading.html([first_part, ' <span class="color-red">', last_word, '</span>'].join(''));
     });
@@ -50,7 +52,7 @@ $(document).ready(function() {
         outDuration: 500
     });
 
-    $('.product-catalog .list-categories .itemCat').mouseover(function () {
+    $('.product-catalog .list-categories .itemCat').mouseover(function() {
         let imgSrc = $(this).attr('data-src');
         $('.product-catalog .category-preview img').attr('src', imgSrc);
 
@@ -65,11 +67,11 @@ $(document).ready(function() {
         srcClassGroup.removeClass('animate__fadeIn');
     })
 
-    $('.product-catalog .list-categories .itemCat').mouseout(function () {
+    $('.product-catalog .list-categories .itemCat').mouseout(function() {
         let srcClass = $('.product-catalog .category-preview .contain');
         let proverka = $('.product-catalog .list-categories .itemCat');
 
-        if(!$(proverka).hasClass("active")) {
+        if (!$(proverka).hasClass("active")) {
             srcClass.addClass('opacity_0');
             srcClass.addClass('animate__fadeOut');
             srcClass.removeClass('animate__fadeIn');
@@ -79,7 +81,7 @@ $(document).ready(function() {
 
     });
 
-    $('.product-catalog .list-categories .itemCat').click(function () {
+    $('.product-catalog .list-categories .itemCat').click(function() {
 
         $(this).addClass('active');
 
@@ -96,7 +98,7 @@ $(document).ready(function() {
     })
 
 
-    $('.open-catalog').click(function () {
+    $('.open-catalog').click(function() {
         if ($(window).width() < 700) {
 
             let ListMenu = $('.product-catalog .list-categories');
@@ -105,12 +107,12 @@ $(document).ready(function() {
             let itemListManufacturer = $('.product-catalog .manufacturer .title');
             let gridNavigation = $('.product-catalog .grid-navigation');
 
-            itemListMenu.click(function () {
+            itemListMenu.click(function() {
                 ListMenu.addClass('animate__fadeOutLeft').hide()
                 ListManufacturer.addClass('animate__slideInRight').fadeIn();
             });
 
-            itemListManufacturer.click(function () {
+            itemListManufacturer.click(function() {
                 ListMenu.removeClass('animate__fadeOutLeft').addClass('animate__fadeInLeft').fadeIn();
                 ListManufacturer.removeClass('animate__slideInRight').hide();
             });
@@ -119,26 +121,33 @@ $(document).ready(function() {
 
 
 
-    // $(categories.navigation).each(function(index, item) {
-    //
-    //     let listCategories = $('.product-catalog .list-categories .group .list');
-    //     let categoryPreview = $('.product-catalog .category-preview');
-    //     let manufacturer = $('.product-catalog .manufacturer');
-    //     const output = categories.navigation[0].group[0].models.map(user => user.nameLabel);
-    //
-    //
-    //     listCategories.append('<p data-src="' + item.photo + '"><span>' + item.number + '</span>' + item.name + '</p>');
-    //     manufacturer.append('<p class="letter">' + item.group[0].letter + '</p><div class="link"><a href="' + item.group[0].models[0].link + '">' + output + '</a></div>');
-    //
-    //     console.log(categories)
-    //     console.log(categories.navigation[0].name)
-    //     console.log(categories.navigation[0].group[0].models[0].nameLabel)
-    //
-    //     for(var i = 0; i < item.group[0].models.length; i++)
-    //         {
-    //             // manufacturer.append('<p class="letter">AAA</p><div class="link"><a href="#">' + item.group.models.nameLabel + '</a></div>');
-    //         }
-    //
-    //     });
+    let g_top = 0;
+    $(window).scroll(function() {
+        let top = $(this).scrollTop();
+
+        if ( top > g_top ) {
+            $('.mobile-top_bar').addClass('show-toggle');
+        } else {
+            $('.mobile-top_bar').removeClass('show-toggle');
+        }
+
+        g_top = top;
+
+        if (window.pageYOffset <= 70) {
+            $('.mobile-top_bar').removeClass('show-toggle');
+        }
+    });
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            }
+        }
+    })
+
 
 });
