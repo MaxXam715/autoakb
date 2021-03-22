@@ -82,3 +82,11 @@ i.icon.labelLogo {
 i.icon.akb {
     mask-image: url('akb.svg')
 }
+
+i.icon.minus-input {
+    mask-image: url('minus-input.svg')
+}
+
+i.icon.plus-input {
+    mask-image: url('plus-input.svg')
+}

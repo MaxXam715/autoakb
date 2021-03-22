@@ -69,6 +69,15 @@
 }
 
 // Ноутбуки
+@media (max-width: 1400px) {
+  header .cart-container {
+    max-width: initial;
+    width: 90%;
+    grid-template-columns: 1fr 360px;
+  }
+}
+
+// Ноутбуки
 @media (max-width: 1338px) {
   .container {
     max-width: 1138px;
@@ -197,6 +206,11 @@
   body {
     padding-top: 90px;
   }
+
+
+  .mobile-bottom_bar {
+    display: grid;
+  }
 }
 
 @media (max-width: 800px) {
@@ -283,8 +297,23 @@
     display: inline-block !important;
   }
 
-  .mobile-bottom_bar {
-    display: grid;
+  .callback-forms {
+    width: 90%;
+    padding: 30px;
+
+    .header {
+      .title {
+        font-size: 25px;
+      }
+    }
+    .info {
+      .index-title {
+        font-size: 25px;
+      }
+      .text {
+        font-size: 16px;
+      }
+    }
   }
 
 }
@@ -312,3 +341,28 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Высота
+@media (max-height: 750px) {
+  header .cart-container .right-col .title-cash {
+    margin-top: 0;
+  }
+
+  header .cart-container .right-col .results {
+    margin-top: 40px;
+  }
+}
+

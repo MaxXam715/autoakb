@@ -11,6 +11,12 @@
 
 <script>
 
+import MegaMenu from './MegaMenu'
+export default {
+  components:{
+    MegaMenu
+  }
+}
 
 </script>
 

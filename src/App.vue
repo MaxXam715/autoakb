@@ -26,6 +26,7 @@ import 'animate.css';
 // import 'flickity/dist/flickity.pkgd.min.js';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel';
+import 'jquery.maskedinput/src/jquery.maskedinput.js';
 
 
 

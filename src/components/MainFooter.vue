@@ -21,7 +21,7 @@
       <p class="title">Подбор</p>
     </a>
 
-    <a href="#" class="nav-bottom-link waves-effect">
+    <a href="#" class="nav-bottom-link waves-effect sidenav-trigger" data-target="slide-out">
       <i class="icon cart"></i>
       <p class="title">Корзина</p>
     </a>

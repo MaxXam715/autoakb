@@ -45,7 +45,6 @@ $(document).ready(function() {
         outDuration: '300', // анимация открытия
     });
 
-
     // Окно Каталога товаров
     $('.modal.open_catalog').modal({
         inDuration: 400,
@@ -148,6 +147,77 @@ $(document).ready(function() {
             }
         }
     })
+
+
+
+    // Форма обратного звонка
+    $('#modal-toggle-callBack').sidenav({
+        edge: 'right', // открыть окно справа
+        inDuration: '400', // анимация открытия
+        outDuration: '300', // анимация открытия
+    });
+
+    // Форма обратного звонка
+    $('#modal-toggle-WriteToUs').sidenav({
+        edge: 'right', // открыть окно справа
+        inDuration: '400', // анимация открытия
+        outDuration: '300', // анимация открытия
+    });
+
+
+    $(".phone_4").mask("+7 (999) 999-99-99");
+
+
+    // Отражение блока об успешной отправке заявке
+    $('.callback-forms .send-form').click(function () {
+        $(this).toggle();
+        $('.callback-forms .form').toggle();
+        $('.callback-forms .successful-sending').toggleClass('active');
+        $('.callback-forms .close-form').toggle();
+    })
+
+    // Отражение блока об успешной отправке заявке
+    $('.callback-forms .close-form').click(function () {
+        $('.callback-forms .form').toggle();
+        $('.callback-forms .successful-sending').toggleClass('active');
+        $('.callback-forms .close-form').toggle();
+        $('.callback-forms .send-form').toggle();
+    })
+
+
+
+    $(function() {
+
+    (function quantityProducts() {
+        var $quantityArrowMinus = $("header .cart-container .left-col .count-btn .minus-input");
+        var $quantityArrowPlus = $("header .cart-container .left-col .count-btn .plus-input");
+        var $quantityNum = $("header .cart-container .left-col .count-btn input");
+
+        $quantityArrowMinus.click(function () {
+            if ($quantityNum.val() > 1) {
+                $quantityNum.parent().find('input').val(+$quantityNum.val() - 1);
+            } else {
+                $($quantityArrowMinus).removeClass('active')
+            }
+        });
+        $quantityArrowPlus.click(quantityPlus);
+
+        function quantityMinus() {
+            if ($quantityNum.val() > 0) {
+                $quantityNum=$(this).siblings("input");
+                $quantityNum.val(+$quantityNum.val() - 1);
+            }
+        }
+
+        function quantityPlus() {
+            $quantityNum=$(this).siblings("input");
+            $quantityNum.val(+$quantityNum.val() + 1);
+        }
+
+    })();
+
+    });
+
 
 
 });

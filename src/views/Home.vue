@@ -6,10 +6,8 @@
 
       <!-- Слайдер -->
       <div class="maxSlid">
-        <div class="owl-carousel">
-          <div class="fixed-ar ar-4-1-slider">
-            <div class="content" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div>
-          </div>
+        <div class="fixed-ar ar-4-1-slider">
+          <div class="content" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div>
         </div>
       </div>
 
