@@ -9,7 +9,7 @@
 
 <script>
 
-import MobileHeader from "@/components/MobileHeader";
+import MobileHeader from "@/components/Moblie/MobileHeader";
 import MainHeader from "@/components/MainHeader";
 import MainFooter from "@/components/MainFooter";
 

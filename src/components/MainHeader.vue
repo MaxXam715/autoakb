@@ -14,12 +14,6 @@
       <!-- Навигация -->
       <HeaderNavigation/>
 
-      <!-- Каталог товаров (меню) -->
-      <HeaderCatalogNav/>
-
-      <!-- Корзина -->
-      <HeaderCart/>
-
     </header>
     <!--  Конец - Шапка  -->
 
@@ -29,6 +23,18 @@
 
     <!-- Форма "написать нам" -->
     <WriteToUs/>
+
+    <!-- Мобильная нижняя навигация (Bottom Bar) -->
+    <MobileBottomBar/>
+
+    <!-- Мобильное боковое меню -->
+    <MobileNavigation/>
+
+    <!-- Корзина -->
+    <HeaderCart/>
+
+    <!-- Каталог товаров (меню) -->
+    <HeaderCatalogNav/>
 
   </div>
 </template>
@@ -42,6 +48,9 @@ import HeaderIndexInfo from './HeaderIndexInfo';
 import HeaderNavigation from './HeaderNavigation';
 import HeaderCart from './HeaderCart';
 import HeaderCatalogNav from './HeaderCatalogNav';
+import MobileHeader from './Moblie/MobileHeader.vue';
+import MobileBottomBar from './Moblie/MobileBottomBar.vue';
+import MobileNavigation from './Moblie/MobileNavigation';
 
 export default {
   components:{
@@ -51,7 +60,10 @@ export default {
     HeaderIndexInfo,
     HeaderNavigation,
     HeaderCart,
-    HeaderCatalogNav
+    HeaderCatalogNav,
+    MobileHeader,
+    MobileBottomBar,
+    MobileNavigation
   }
 }
 

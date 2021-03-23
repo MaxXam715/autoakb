@@ -164,6 +164,13 @@ $(document).ready(function() {
         outDuration: '300', // анимация открытия
     });
 
+    // Мобильное боковое меню
+    $('#MobileNav-modal-toggle').sidenav({
+        edge: 'right', // открыть окно справа
+        inDuration: '400', // анимация открытия
+        outDuration: '300', // анимация открытия
+    });
+
 
     $(".phone_4").mask("+7 (999) 999-99-99");
 

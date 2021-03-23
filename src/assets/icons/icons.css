@@ -35,6 +35,10 @@ i.icon.mailOpen {
     mask-image: url('mailOpen.svg')
 }
 
+i.icon.mail {
+    mask-image: url('mail.svg')
+}
+
 i.icon.operator {
     mask-image: url('operator.svg')
 }
@@ -89,4 +93,8 @@ i.icon.minus-input {
 
 i.icon.plus-input {
     mask-image: url('plus-input.svg')
+}
+
+i.icon.rowLightRight {
+    mask-image: url('rowLightRight.svg')
 }
