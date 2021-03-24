@@ -14,6 +14,12 @@
       <!-- Навигация -->
       <HeaderNavigation/>
 
+      <!-- Каталог товаров (меню) -->
+      <HeaderCatalogNav/>
+
+      <!-- МО Прием Б/У аккумуляторов -->
+      <AcceptanceBatteries/>
+
     </header>
     <!--  Конец - Шапка  -->
 
@@ -33,8 +39,7 @@
     <!-- Корзина -->
     <HeaderCart/>
 
-    <!-- Каталог товаров (меню) -->
-    <HeaderCatalogNav/>
+
 
   </div>
 </template>
@@ -48,9 +53,10 @@ import HeaderIndexInfo from './HeaderIndexInfo';
 import HeaderNavigation from './HeaderNavigation';
 import HeaderCart from './HeaderCart';
 import HeaderCatalogNav from './HeaderCatalogNav';
-import MobileHeader from './Moblie/MobileHeader.vue';
-import MobileBottomBar from './Moblie/MobileBottomBar.vue';
+import MobileHeader from './Moblie/MobileHeader';
+import MobileBottomBar from './Moblie/MobileBottomBar';
 import MobileNavigation from './Moblie/MobileNavigation';
+import AcceptanceBatteries from './modals/AcceptanceBatteries';
 
 export default {
   components:{
@@ -63,7 +69,8 @@ export default {
     HeaderCatalogNav,
     MobileHeader,
     MobileBottomBar,
-    MobileNavigation
+    MobileNavigation,
+    AcceptanceBatteries
   }
 }
 

@@ -33,15 +33,14 @@
       </div>
       <!-- Конец - Сервисное меню -->
 
-
       <!-- Контакты и обратная связь -->
       <div class="right-col callback">
 
         <!-- Соц. сети -->
         <div class="social-link flex-Vcenter">
-          <a class="flex-Vcenter" href="#"><i class="icon whatsapp"></i></a>
+          <a href="#" class="flex-Vcenter tooltipped" data-position="bottom" data-tooltip="WhatsApp"><i class="icon whatsapp"></i></a>
           <div class="line"></div>
-          <a class="flex-Vcenter" href="#"><i class="icon instagram"></i></a>
+          <a href="#" class="flex-Vcenter tooltipped" data-position="bottom" data-tooltip="Instagram"><i class="icon instagram"></i></a>
         </div>
 
         <!-- Соц. сети -->

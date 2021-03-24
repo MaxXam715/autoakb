@@ -152,6 +152,30 @@ h6 {
   color: var(--color-red);
 }
 
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+  background-color: var(--color-red);
+  border: 2px solid var(--color-red);
+}
+
+[type="checkbox"].filled-in:not(:checked)+span:not(.lever):after {
+  border: 2px solid var(--color-blackOpacity);
+  border-radius: 0;
+  width: 20px;
+  height: 20px;
+}
+
+label {
+  padding: 0;
+
+
+  span {
+    padding: 0 !important;
+    width: 20px;
+    height: 20px !important;
+  }
+}
+
+
 // Общий контейнер
 
 .container {
@@ -356,5 +380,59 @@ h6 {
     background-color: var(--color-gray);
     text-transform: initial;
     font-size: 18px;
+  }
+}
+
+
+// Кнопки +-
+.count-btn {
+  display: flex;
+  align-items: center;
+
+  i {
+    font-size: 20px;
+    background-color: var(--color-gray);
+    cursor: pointer;
+
+    &.active {
+      background-color: #000;
+    }
+
+    &:active {
+      transform: scale(0.97);
+      background-color: #222;
+    }
+  }
+
+  input {
+    width: 30px !important;
+    height: max-content !important;
+    padding: 0 !important;
+    border: none !important;
+    border-color: transparent !important;
+    margin: 0 5px 0 5px !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input[type="number"]:hover,
+  input[type="number"]:focus {
+    -moz-appearance: number-input;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
   }
 }

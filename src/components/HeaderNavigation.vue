@@ -30,7 +30,7 @@
       <a class="link-nav flex-Vcenter waves-effect waves-light" href="javascript:void(0);">Гарантии</a>
       <a class="link-nav flex-Vcenter waves-effect waves-light" href="javascript:void(0);">Оптом</a>
       <a class="link-nav flex-Vcenter waves-effect waves-light" href="javascript:void(0);">Контакты</a>
-      <a class="acceptance-batteries flex-center waves-effect waves-light" href="javascript:void(0);"><span>Прием Б/У АКБ</span></a>
+      <a class="acceptance-batteries flex-center waves-effect waves-light modal-trigger" href="#modal-bu"><span>Прием Б/У АКБ</span></a>
     </div>
 
   </nav>

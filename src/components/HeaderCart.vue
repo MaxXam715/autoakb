@@ -173,7 +173,7 @@
 
         <div class="item flex-Gcenter-sb">
           <p class="title">Утилизация старого АКБ</p>
-          <p class="price red-text">Добавить</p>
+          <a href="#modal-bu" class="price red-text modal-trigger">Добавить</a>
         </div>
 
         <div class="item promo-code flex-Gcenter-sb">
@@ -314,58 +314,6 @@ name: "HeaderCart"
 
             &:hover:not(.price) {
               color: var(--color-red);
-            }
-          }
-
-          .count-btn {
-            display: flex;
-            align-items: center;
-
-            i {
-              font-size: 20px;
-              background-color: var(--color-gray);
-              cursor: pointer;
-
-              &.active {
-                background-color: #000;
-              }
-
-              &:active {
-                transform: scale(0.97);
-                background-color: #222;
-              }
-            }
-
-            input {
-              width: 30px;
-              height: max-content;
-              padding: 0;
-              border: none !important;
-              border-color: transparent !important;
-              margin: 0 5px 0 5px;
-              font-size: 18px;
-              font-weight: 500;
-              text-align: center;
-            }
-
-            input[type="number"]::-webkit-outer-spin-button,
-            input[type="number"]::-webkit-inner-spin-button {
-              -webkit-appearance: none;
-              margin: 0;
-            }
-
-            input[type="number"] {
-              -moz-appearance: textfield;
-            }
-            input[type="number"]:hover,
-            input[type="number"]:focus {
-              -moz-appearance: number-input;
-            }
-
-            input[type=number]::-webkit-inner-spin-button,
-            input[type=number]::-webkit-outer-spin-button {
-              -webkit-appearance: none;
-              margin: 0;
             }
           }
 

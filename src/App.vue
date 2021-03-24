@@ -6,12 +6,7 @@
     main-footer
 </template>
 
-<style lang="less">
-@import "./assets/fonts/fonts";
-@import "./assets/less/main";
-@import "./assets/less/media";
-@import "./assets/icons/icons.css";
-</style>
+
 
 <script>
 
@@ -52,5 +47,9 @@ export default {
 </script>
 
 
-
-
+<style lang="less">
+@import "./assets/fonts/fonts";
+@import "./assets/less/main";
+@import "./assets/less/media";
+@import "./assets/icons/icons.css";
+</style>
