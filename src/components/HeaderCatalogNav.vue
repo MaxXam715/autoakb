@@ -74,6 +74,217 @@ name: "HeaderCatalogNav"
 }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
+
+// Контент
+.modal.product-catalog {
+
+  width: 100vw;
+  height: calc(var(--vh, 1vh) * 100);
+  max-width: initial;
+  max-height: initial;
+  color: #000;
+  padding: 30px 50px 0 50px;
+
+
+  .header-modal_catalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+
+    .title {
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 36px;
+      text-align: center;
+      color: #000000;
+    }
+
+    .modal-close {
+      justify-content: flex-end;
+      text-align: right;
+      font-size: 20px;
+      font-weight: 500;
+      width: max-content;
+      margin-left: auto;
+      text-transform: none;
+
+      i {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .grid-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: calc(100vh - 200px);
+    overflow: hidden;
+
+    .animate__animated {
+      animation-duration: 0.7s;
+    }
+
+    .list-categories {
+      border-right: 1px solid #E6E6E6;
+      opacity: 1;
+      overflow-x: auto;
+      transition: all 1s;
+
+      &::-webkit-scrollbar-thumb { height: 50px;  cursor: pointer; background-color: transparent; border-radius: 30px; cursor: pointer;}
+
+      .group {
+        width: 95%;
+
+        .title {
+          position: relative;
+          font-size: 25px;
+          color: var(--color-gray);
+          font-weight: bold;
+          margin-bottom: 40px;
+          white-space: nowrap;
+
+          &:after {
+            content: '';
+            position: absolute;
+            top: 48px;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, rgba(255,255,255,1) 0%, var(--color-red) 50%, rgba(255,255,255,1) 100%);
+          }
+        }
+
+        .list {
+
+          p {
+            display: inline-block;
+            width: 100%;
+            font-size: 30px;
+            color: #000000;
+            font-weight: bold;
+            padding: 17px 30px;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-bottom: 1px;
+
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
+            &:hover {
+              background: rgba(0, 0, 0, 0.04);
+            }
+
+            &:last-child {
+              margin-bottom: 20px;
+            }
+
+            span {
+              font-size: 25px;
+              color: var(--color-gray);
+              font-weight: 400;
+              margin-right: 60px;
+              width: 31px;
+            }
+          }
+        }
+      }
+    }
+
+    .category-preview {
+      border-right: 1px solid #E6E6E6;
+      padding: 0 50px;
+
+      .contain {
+        height: 100%;
+        --animate-duration: 0.5s;
+      }
+
+      .title {
+        font-size: 25px;
+        color: var(--color-gray);
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
+
+      .box-prev-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        transition: all 0.2s;
+      }
+
+      .photo-cat {
+        width: 100%;
+        max-width: 430px;
+        height: 100%;
+        max-height: 340px;
+        background-size: cover;
+        object-fit: contain;
+      }
+    }
+
+    .manufacturer {
+      padding-left: 50px;
+
+      .title {
+        font-size: 25px;
+        color: var(--color-gray);
+        font-weight: bold;
+        margin-bottom: 40px;
+
+        i {
+          display: none;
+          background-color: var(--color-red);
+          margin-right: 15px;
+          font-size: 23px;
+        }
+      }
+
+      .letter {
+        position: relative;
+        font-size: 25px;
+        font-weight: bold;
+        color: var(--color-red);
+        margin-bottom: 30px;
+
+        &:after {
+          content: '';
+          position: absolute;
+          top: 45px;
+          left: 0;
+          width: 100%;
+          height: 1px;
+          background-color: #ccc;
+        }
+      }
+
+      .link {
+
+        a {
+          display: flex;
+          width: 100%;
+          color: #000;
+          font-size: 18px;
+          font-weight: 600;
+          padding: 13px 30px;
+
+          &:hover {
+            background: rgba(0, 0, 0, 0.04);
+          }
+
+          &:last-child {
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}
 
 </style>

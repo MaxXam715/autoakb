@@ -6,6 +6,12 @@
     main-footer
 </template>
 
+<style lang="less">
+@import "./assets/fonts/fonts";
+@import "./assets/less/main";
+@import "./assets/less/media";
+@import "./assets/icons/icons.css";
+</style>
 
 <script>
 
@@ -15,7 +21,7 @@ import MainFooter from "@/components/MainFooter";
 
 // Скрипты JS / JQ
 import 'jquery';
-import './assets/script.js';
+import onload from './assets/script.js';
 import './assets/categories.js';
 
 // Libraries
@@ -35,16 +41,16 @@ export default {
     MobileHeader,
     MainFooter,
     MainHeader
+  },
+  mounted() {
+    this.$nextTick(()=>{
+      $(document).ready(onload);
+    })
   }
 }
 
 </script>
 
 
-<style lang="less">
-  @import "./assets/fonts/fonts";
-  @import "./assets/less/main";
-  @import "./assets/less/media";
-  @import "./assets/icons/icons.css";
-</style>
+
 

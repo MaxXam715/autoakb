@@ -19,4 +19,37 @@ export default {
 
 <style lang="less" scoped>
 
+.mobile-top_bar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 0.9px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+
+  &.show-toggle {
+    top: -70px;
+    box-shadow: 0px 0.9px 30px rgba(0, 0, 0, 0);
+  }
+
+  img.logo-mob {
+    width: 158px;
+    height: auto;
+    padding: 15px 0px 15px 20px;
+  }
+
+  .button-menu-mob {
+    width: 70px;
+    height: 70px;
+
+    i {
+      font-size: 30px;
+    }
+  }
+}
+
 </style>

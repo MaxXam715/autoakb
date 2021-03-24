@@ -37,6 +37,44 @@ name: "MobileBottomBar"
 }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
+
+.mobile-bottom_bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid var(--color-blackOpacity);
+  padding: 0px 10px;
+  padding-bottom: env(safe-area-inset-bottom, 10px);
+
+  .nav-bottom-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+
+    &.active {
+      i {
+        background-color: var(--color-red);
+      }
+    }
+
+    .title {
+      font-size: 12px;
+      color: var(--color-gray);
+      margin-top: 10px;
+    }
+
+    i {
+      font-size: 22px;
+      background-color: var(--color-gray);
+    }
+  }
+}
 
 </style>

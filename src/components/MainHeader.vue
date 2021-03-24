@@ -72,4 +72,8 @@ export default {
 
 <style lang="less" scoped>
 
+header {
+  margin-bottom: 30px;
+}
+
 </style>

@@ -20,7 +20,7 @@
 
     </div>
 
-    
+
   </div>
 </template>
 
@@ -31,5 +31,52 @@
 
 <style lang="less">
 
+// Слайдер и баннеры
+.block-slider-banners {
+  display: grid;
+  grid-template-columns: 11fr 5fr;
+  grid-gap: 30px;
+  width: 100%;
+  height: 100%;
+
+  .maxSlid {
+    width: 100%;
+    height: 100%;
+    max-width: 1048px;
+    max-height: 460px;
+    overflow: hidden;
+  }
+
+  .fixed-ar {
+    height: 100%;
+  }
+
+  .banners {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      max-height: 215px;
+      max-width: 460px;
+      margin-bottom: 30px;
+      object-fit: cover;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .owl-carousel,
+  .owl-stage-outer,
+  .owl-carousel .owl-stage,
+  .owl-carousel.owl-drag .owl-item {
+    height: 100%;
+  }
+}
 
 </style>
