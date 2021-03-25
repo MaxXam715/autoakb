@@ -74,7 +74,7 @@ name: "HeaderCatalogNav"
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 
 // Контент
 .modal.product-catalog {

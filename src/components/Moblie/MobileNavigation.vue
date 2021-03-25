@@ -35,24 +35,24 @@
         <a href="" class="link">Гарантии</a>
         <a href="" class="link">Оптом</a>
         <a href="" class="link">Контакты</a>
-        <a href="" class="link">Прием Б/У акб</a>
+        <a href="#modal-bu" class="link modal-trigger">Прием Б/У акб</a>
       </div>
 
-    </div>
+      <!-- Фиксированный подвал -->
+      <div class="fixed-footer flex-Gcenter-sb">
 
-    <!-- Фиксированный подвал -->
-    <div class="fixed-footer flex-Gcenter-sb">
+        <div class="connection-us flex-Vcenter sidenav-trigger" data-target="modal-toggle-callBack">
+          <i class="icon phone"></i>
+          <p class="title">Позвонить</p>
+        </div>
 
-      <div class="connection-us flex-Vcenter sidenav-trigger" data-target="modal-toggle-callBack">
-        <i class="icon phone"></i>
-        <p class="title">Позвонить</p>
-      </div>
+        <div class="line"></div>
 
-      <div class="line"></div>
+        <div class="connection-us flex-Vcenter sidenav-trigger" data-target="modal-toggle-WriteToUs">
+          <i class="icon mail"></i>
+          <p class="title">Написать</p>
+        </div>
 
-      <div class="connection-us flex-Vcenter sidenav-trigger" data-target="modal-toggle-WriteToUs">
-        <i class="icon mail"></i>
-        <p class="title">Написать</p>
       </div>
 
     </div>
@@ -69,23 +69,17 @@ name: "MobileNavigation"
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 
 // Мобильное боковое меню
 .mobileNav {
-  background-color: #fff;
-  width: 90%;
-  padding-left: 30px;
-  padding-bottom: 0;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 0px;
-
-  .content {
-    height: 100vh;
-    overflow: auto;
-    padding-bottom: 100px;
-  }
+  background-color: #fff !important;
+  width: 90% !important;
+  padding-left: 30px !important;
+  padding-bottom: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding-bottom: 0px !important;
 
   .header {
     height: 70px;
@@ -144,7 +138,9 @@ name: "MobileNavigation"
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    height: calc(100vh - 199px);
+    overflow: auto;
 
     .link {
       color: #000;
@@ -165,7 +161,7 @@ name: "MobileNavigation"
   .fixed-footer {
     position: fixed;
     left: 0;
-    bottom: 60px;
+    bottom: 0px;
     background-color: var(--color-LightBlue);
     width: 100%;
     padding: 23px 30px;

@@ -204,13 +204,12 @@ name: "HeaderCart"
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 
 // Корзина
 
 .toggle-cart {
   max-width: 1280px;
-  width: 100%;
 }
 
 .cart-container {
@@ -221,7 +220,8 @@ name: "HeaderCart"
     padding: 50px;
     padding-right: 60px;
     padding-bottom: 0;
-    height: 100vh;
+    height: 100%;
+    overflow: auto;
 
     .header {
       margin-bottom: 20px;
@@ -260,9 +260,6 @@ name: "HeaderCart"
 
     .tabel-grid {
       position: relative;
-      overflow-y: auto;
-      height: calc(100vh - 177px) !important;
-      overflow-x: hidden;
       padding-right: 10px;
 
       .header {
@@ -407,6 +404,8 @@ name: "HeaderCart"
       }
     }
 
+
+
     .total-price {
       margin-top: auto;
 
@@ -439,6 +438,10 @@ name: "HeaderCart"
       }
     }
   }
+}
+
+.total-price-mobile {
+  display: none;
 }
 
 </style>

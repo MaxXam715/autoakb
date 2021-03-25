@@ -17,9 +17,6 @@
       <!-- Каталог товаров (меню) -->
       <HeaderCatalogNav/>
 
-      <!-- МО Прием Б/У аккумуляторов -->
-      <AcceptanceBatteries/>
-
     </header>
     <!--  Конец - Шапка  -->
 
@@ -39,7 +36,8 @@
     <!-- Корзина -->
     <HeaderCart/>
 
-
+    <!-- МО Прием Б/У аккумуляторов -->
+    <AcceptanceBatteries/>
 
   </div>
 </template>
@@ -77,7 +75,7 @@ export default {
 
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 
 header {
   margin-bottom: 30px;

@@ -148,7 +148,6 @@ export default function() {
     })
 
 
-
     // Форма обратного звонка
     $('#modal-toggle-callBack').sidenav({
         edge: 'right', // открыть окно справа
@@ -223,6 +222,7 @@ export default function() {
     })();
 
     });
+
 
 
 

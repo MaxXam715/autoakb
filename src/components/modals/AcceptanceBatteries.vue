@@ -33,7 +33,7 @@
 
           <div class="header">
             <p>Емкость АКБ</p>
-            <p>Кол-во АКБ</p>
+            <p>Кол-во</p>
             <p>Скидка</p>
           </div>
 
@@ -180,7 +180,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 .acceptanceBatteries {
   max-width: 790px;
   max-height: 830px;
@@ -265,6 +265,8 @@ export default {
         padding: 10px;
         background-color: #fff;
         position: sticky;
+        top: 0;
+        z-index: 3;
 
         p {
           font-size: 16px;
@@ -300,6 +302,7 @@ export default {
               font-size: 18px;
               font-weight: bold;
               color: #000;
+              white-space: nowrap;
             }
           }
         }

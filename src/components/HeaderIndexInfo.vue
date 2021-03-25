@@ -62,7 +62,7 @@ name: "HeaderIndexInfo"
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 
 header .index-info .container {
   display: flex;

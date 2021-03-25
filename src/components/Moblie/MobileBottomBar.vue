@@ -37,11 +37,12 @@ name: "MobileBottomBar"
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 
 .mobile-bottom_bar {
   display: none;
   position: fixed;
+  z-index: 10;
   bottom: 0;
   left: 0;
   grid-template-columns: repeat(5, 1fr);

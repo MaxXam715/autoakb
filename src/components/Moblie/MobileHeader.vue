@@ -17,10 +17,10 @@ export default {
 
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 
 .mobile-top_bar {
-  display: none;
+  display: none !important;
   position: fixed;
   top: 0;
   left: 0;
@@ -30,6 +30,7 @@ export default {
   background: #FFFFFF;
   box-shadow: 0px 0.9px 30px rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
+  z-index: 10;
 
   &.show-toggle {
     top: -70px;

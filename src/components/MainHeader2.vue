@@ -221,6 +221,6 @@ import MegaMenu from './MegaMenu'
   }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
 
 </style>

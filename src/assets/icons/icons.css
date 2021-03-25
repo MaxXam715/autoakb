@@ -98,3 +98,7 @@ i.icon.plus-input {
 i.icon.rowLightRight {
     mask-image: url('rowLightRight.svg')
 }
+
+i.icon.arrowDown {
+    mask-image: url('arrowDown.svg')
+}
