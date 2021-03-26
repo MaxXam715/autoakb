@@ -55,12 +55,12 @@ export default function() {
         $('.product-catalog .category-preview img').attr('src', imgSrc);
 
         let srcClass = $('.product-catalog .category-preview .contain');
-        srcClass.removeClass('opacity_0');
+        srcClass.removeClass('opacity-0');
         srcClass.removeClass('animate__fadeOut');
         srcClass.addClass('animate__fadeIn');
 
         let srcClassGroup = $('.product-catalog .manufacturer .contain');
-        srcClassGroup.addClass('opacity_0');
+        srcClassGroup.addClass('opacity-0');
         srcClassGroup.addClass('animate__fadeOut');
         srcClassGroup.removeClass('animate__fadeIn');
     })
@@ -70,7 +70,7 @@ export default function() {
         let proverka = $('.product-catalog .list-categories .itemCat');
 
         if (!$(proverka).hasClass("active")) {
-            srcClass.addClass('opacity_0');
+            srcClass.addClass('opacity-0');
             srcClass.addClass('animate__fadeOut');
             srcClass.removeClass('animate__fadeIn');
         }
@@ -85,12 +85,12 @@ export default function() {
 
         let srcImg = $('.product-catalog .category-preview .contain');
 
-        srcImg.removeClass('opacity_0');
+        srcImg.removeClass('opacity-0');
         srcImg.removeClass('animate__fadeOut');
         srcImg.addClass('animate__fadeIn');
 
         let srcClass = $('.product-catalog .manufacturer .contain');
-        srcClass.removeClass('opacity_0');
+        srcClass.removeClass('opacity-0');
         srcClass.removeClass('animate__fadeOut');
         srcClass.addClass('animate__fadeIn');
     })
@@ -222,8 +222,6 @@ export default function() {
     })();
 
     });
-
-
 
 
 }

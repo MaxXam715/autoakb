@@ -33,7 +33,7 @@ export default {
 // Слайдер и баннеры
 .block-slider-banners {
   display: grid;
-  grid-template-columns: 11fr 5fr;
+  grid-template-columns: 11.4fr 5fr;
   grid-gap: 30px;
   height: 100%;
 

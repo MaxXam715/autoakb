@@ -102,3 +102,7 @@ i.icon.rowLightRight {
 i.icon.arrowDown {
     mask-image: url('arrowDown.svg')
 }
+
+i.icon.eraser {
+    mask-image: url('eraser.svg')
+}

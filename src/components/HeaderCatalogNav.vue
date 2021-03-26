@@ -29,7 +29,7 @@
 
       <!-- Превью категории -->
       <div class="category-preview">
-        <div class="contain opacity_0 wow animate__animated">
+        <div class="contain opacity-0 wow animate__animated">
           <div class="title op0">Автомобильные акб</div>
           <div class="box-prev-img">
             <img class="photo-cat" src="">
@@ -39,7 +39,7 @@
 
       <!-- Производитель -->
       <div class="manufacturer wow animate__animated">
-        <div class="contain opacity_0 wow animate__animated">
+        <div class="contain opacity-0 wow animate__animated">
           <div class="title flex-Vcenter"><i class="icon rowLightLeft"></i>Производитель</div>
 
           <div class="group">
@@ -76,13 +76,15 @@ name: "HeaderCatalogNav"
 
 <style lang="less">
 
+
+
 // Контент
 .modal.product-catalog {
 
   width: 100vw;
   height: calc(var(--vh, 1vh) * 100);
-  max-width: initial;
-  max-height: initial;
+  max-width: initial !important;
+  max-height: initial !important;
   color: #000;
   padding: 30px 50px 0 50px;
 
