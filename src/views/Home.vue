@@ -7,6 +7,9 @@
     <!-- фильтр по подбору АКБ -->
     <HomefilterAkb/>
 
+    <!-- Услуги от магазина -->
+    <ServicesFromStore/>
+
 
   </div>
 </template>
@@ -15,11 +18,13 @@
 
 import HomeSliderBenners from '@/components/HomeSliderBenners.vue';
 import HomefilterAkb from '@/components/HomeFilterAkb.vue';
+import ServicesFromStore from '@/components/ServicesFromStore.vue';
 
 export default {
   components:{
     HomeSliderBenners,
     HomefilterAkb,
+    ServicesFromStore
   }
 }
 
