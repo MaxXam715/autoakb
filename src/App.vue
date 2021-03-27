@@ -14,10 +14,12 @@ import MobileHeader from "@/components/Moblie/MobileHeader";
 import MainHeader from "@/components/MainHeader";
 import MainFooter from "@/components/MainFooter";
 
+
 // Скрипты JS / JQ
 import 'jquery';
 import onload from './assets/script.js';
 import './assets/categories.js';
+
 
 // Libraries
 import 'materialize-css/dist/css/materialize.min.css';
@@ -27,6 +29,15 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel';
 import 'jquery.maskedinput/src/jquery.maskedinput.js';
 
+
+// Шрифты
+import '@/assets/fonts/fonts.less';
+// Иконки
+import '@/assets/icons/icons.css';
+// Стили
+import '@/assets/less/main.less';
+// Медиа
+import '@/assets/less/media.less';
 
 
 export default {
@@ -46,8 +57,5 @@ export default {
 
 
 <style lang="less">
-@import "./assets/fonts/fonts";
-@import "./assets/less/main";
-@import "./assets/less/media";
-@import "./assets/icons/icons.css";
+
 </style>

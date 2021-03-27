@@ -106,3 +106,7 @@ i.icon.arrowDown {
 i.icon.eraser {
     mask-image: url('eraser.svg')
 }
+
+i.icon.setting {
+    mask-image: url('setting.svg')
+}

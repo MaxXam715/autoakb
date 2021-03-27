@@ -164,6 +164,45 @@ input:focus {
   border-bottom: 1px solid var(--color-red) !important;
 }
 
+
+/* Important part */
+.box-proportion {
+  position: relative;
+  float: left;
+  font-size: 12px;
+  background-color: #ccc;
+}
+.box-proportion:before {
+  content: "";
+  display: block;
+  margin-top: 100%; /* initial ratio of 1:1*/
+}
+
+/* Other ratios */
+.ratio1_1:before {
+  width: 100%;
+}
+.ratio2_1:before {
+  margin-top: 50%;
+}
+.ratio1_2:before {
+  margin-top: 200%;
+}
+.ratio4_3:before {
+  margin-top: 75%;
+}
+.ratio16_9:before {
+  margin-top: 56.25%;
+}
+.box-proportion > .content {
+  /* Positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 // Общий контейнер
 
 .container {

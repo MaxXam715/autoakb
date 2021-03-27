@@ -27,7 +27,7 @@
     font-size: 1.3vw !important;
   }
 
-  .filter-akb .parameters .slide-filter .car-brand {
+  .slide-filter-08945 .car-brand {
     grid-template-columns: repeat(6, 1fr) !important;
   }
 
@@ -82,7 +82,7 @@
     padding: 15px 30px;
   }
 
-  .filter-akb .parameters .slide-filter .car-brand {
+  .slide-filter-08945 .car-brand {
     grid-template-columns: repeat(5, 1fr) !important;
   }
 }
@@ -126,6 +126,10 @@
 
   .filter-akb  {
     display: none !important;
+  }
+
+  .mobile-filter-akb {
+    display: grid !important;
   }
 
 }
@@ -579,6 +583,20 @@
 
     .step {
       display: none;
+    }
+
+    .what-is .title .arrowDown {
+      display: none;
+    }
+  }
+
+  .mobile-filter-akb {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 20px !important;
+
+    .item-category-akb {
+      grid-column-start: 1;
+      grid-column-end: 3 !important;
     }
   }
 }
