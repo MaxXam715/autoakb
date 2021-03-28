@@ -37,12 +37,6 @@ export default {
   }
 }
 
-
-
-// $('.owl-nav-custom .right').click(function() {
-//   $(".owl-carousel").trigger(".owl-carousel.next");
-// });
-
 </script>
 
 <style lang="less">

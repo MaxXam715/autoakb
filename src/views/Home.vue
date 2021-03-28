@@ -13,6 +13,9 @@
     <!-- О нас -->
     <HomeAboutUs/>
 
+    <!-- Товары -->
+    <HomeGoods/>
+
 
   </div>
 </template>
@@ -23,6 +26,7 @@ import HomeSliderBenners from '@/components/Home/HomeSliderBenners.vue';
 import HomefilterAkb from '@/components/Home/HomeFilterAkb.vue';
 import HomeServicesFromStore from '@/components/Home/HomeServicesFromStore.vue';
 import HomeAboutUs from '@/components/Home/HomeAboutUs.vue';
+import HomeGoods from '@/components/Home/HomeGoods.vue';
 
 export default {
   components:{
@@ -30,6 +34,7 @@ export default {
     HomefilterAkb,
     HomeServicesFromStore,
     HomeAboutUs,
+    HomeGoods,
   }
 }
 
