@@ -1,9 +1,13 @@
-<template lang="pug">
-  #app
-    mobile-header
-    main-header
-    router-view
-    main-footer
+<template>
+  <div id="app">
+
+    <main-header/>
+    <mobile-header/>
+    <router-view/>
+    <main-footer/>
+
+  </div>
+
 </template>
 
 
@@ -11,7 +15,7 @@
 <script>
 
 import MobileHeader from "@/components/Moblie/MobileHeader";
-import MainHeader from "@/components/MainHeader";
+import MainHeader from "@/components/Header/MainHeader";
 import MainFooter from "@/components/MainFooter";
 
 

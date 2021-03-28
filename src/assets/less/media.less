@@ -85,6 +85,14 @@
   .slide-filter-08945 .car-brand {
     grid-template-columns: repeat(5, 1fr) !important;
   }
+
+  .home-About-Us .years-old {
+    font-size: 9vw !important;
+    margin-top: -3.4vw !important;
+  }
+  .home-About-Us .content-about-us .content-text .label-text {
+    display: none;
+  }
 }
 
 // Ноутбуки
@@ -318,7 +326,7 @@
 
   .cart-container {
     grid-template-columns: 1fr;
-    width: 90%;
+    width: 90% !important;
 
     .left-col {
       display: flex;
@@ -442,6 +450,19 @@
     .right-col {
       display: none;
     }
+  }
+
+  .home-About-Us .content-about-us .background-image {
+    display: none !important;
+  }
+
+  .home-About-Us .content-about-us .content-text {
+    max-width: inherit !important;
+  }
+
+  .home-About-Us .years-old {
+    font-size: 15vw !important;
+    margin-top: -5.6vw !important;
   }
 }
 
@@ -625,6 +646,18 @@
     font-size: 23px;
   }
 
+  .block-slider-banners .slider-index {
+    width: 100% !important;
+  }
+
+  .block-slider-banners {
+    height: 44vw !important;
+  }
+
+  .block-slider-banners .owl-carousel .owl-dots {
+    display: none;
+  }
+
 }
 
 // Мобильные устройства
@@ -671,6 +704,38 @@
       grid-column-end: 3 !important;
     }
   }
+
+  .home-About-Us .content-about-us .content-text {
+    padding: 30px !important;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.08) !important;
+
+    .box-qualities {
+      max-width: inherit !important;
+      grid-column-gap: 20px !important;
+
+      .item {
+        i {
+          font-size: 30px !important;
+        }
+
+        p {
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
+
+  .home-About-Us .content-about-us .content-text {
+    > .title {
+      font-size: 20px !important;
+      margin-bottom: 15px !important;
+    }
+
+    .text {
+      font-size: 14px !important;
+    }
+  }
+
 }
 
 // Мобильные устройства

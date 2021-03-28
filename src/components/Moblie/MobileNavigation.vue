@@ -161,7 +161,6 @@ name: "MobileNavigation"
   .fixed-footer {
     position: fixed;
     left: 0;
-    bottom: 0px;
     background-color: var(--color-LightBlue);
     width: 100%;
     padding: 23px 30px;

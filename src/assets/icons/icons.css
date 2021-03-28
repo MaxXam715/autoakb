@@ -103,10 +103,30 @@ i.icon.arrowDown {
     mask-image: url('arrowDown.svg')
 }
 
+i.icon.arrowLeft {
+    mask-image: url('arrowLeft.svg')
+}
+
 i.icon.eraser {
     mask-image: url('eraser.svg')
 }
 
 i.icon.setting {
     mask-image: url('setting.svg')
+}
+
+i.icon.setting-2 {
+    mask-image: url('setting-2.svg')
+}
+
+i.icon.search-2 {
+    mask-image: url('search-2.svg')
+}
+
+i.icon.quality {
+    mask-image: url('quality.svg')
+}
+
+i.icon.guarantees {
+    mask-image: url('guarantees.svg')
 }

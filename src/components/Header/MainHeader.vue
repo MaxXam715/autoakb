@@ -44,17 +44,17 @@
 
 <script>
 
-import CallBack from './modals/CallBack';
-import WriteToUs from './modals/WriteToUs';
+import CallBack from '../modals/CallBack';
+import WriteToUs from '../modals/WriteToUs';
 import HeaderTopBar from './HeaderTopBar';
 import HeaderIndexInfo from './HeaderIndexInfo';
 import HeaderNavigation from './HeaderNavigation';
 import HeaderCart from './HeaderCart';
 import HeaderCatalogNav from './HeaderCatalogNav';
-import MobileHeader from './Moblie/MobileHeader';
-import MobileBottomBar from './Moblie/MobileBottomBar';
-import MobileNavigation from './Moblie/MobileNavigation';
-import AcceptanceBatteries from './modals/AcceptanceBatteries';
+import MobileHeader from '../Moblie/MobileHeader';
+import MobileBottomBar from '../Moblie/MobileBottomBar';
+import MobileNavigation from '../Moblie/MobileNavigation';
+import AcceptanceBatteries from '../modals/AcceptanceBatteries';
 
 export default {
   components:{

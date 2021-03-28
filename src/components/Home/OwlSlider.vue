@@ -1,6 +1,6 @@
 <template>
 
-  <div class="owl-carousel">
+  <div class="owl-carousel carousel-akb">
     <div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div>
     <div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div>
     <div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div>
@@ -10,10 +10,11 @@
 </template>
 
 <script>
-
 export default {
   mounted() {
     $(this.$el).owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 2500,
       loop:true,
       margin:10,
       nav:true,
@@ -27,11 +28,11 @@ export default {
     })
 
     $('.owl-btn.right').click(function() {
-      $(".owl-carousel .owl-next").click();
+      $(".carousel-akb .owl-next").click();
     });
 
     $('.owl-btn.left').click(function() {
-      $(".owl-carousel .owl-prev").click();
+      $(".carousel-akb .owl-prev").click();
     });
   }
 }
@@ -44,6 +45,8 @@ export default {
 
 </script>
 
-<style scoped>
+<style lang="less">
+
+
 
 </style>

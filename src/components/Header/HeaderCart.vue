@@ -215,6 +215,7 @@ name: "HeaderCart"
 .cart-container {
   display: grid;
   grid-template-columns: 1fr 400px;
+  width: 100% !important;
 
   .left-col {
     padding: 50px;

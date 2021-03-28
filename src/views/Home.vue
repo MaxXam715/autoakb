@@ -8,7 +8,10 @@
     <HomefilterAkb/>
 
     <!-- Услуги от магазина -->
-    <ServicesFromStore/>
+    <HomeServicesFromStore/>
+
+    <!-- О нас -->
+    <HomeAboutUs/>
 
 
   </div>
@@ -16,15 +19,17 @@
 
 <script>
 
-import HomeSliderBenners from '@/components/HomeSliderBenners.vue';
-import HomefilterAkb from '@/components/HomeFilterAkb.vue';
-import ServicesFromStore from '@/components/ServicesFromStore.vue';
+import HomeSliderBenners from '@/components/Home/HomeSliderBenners.vue';
+import HomefilterAkb from '@/components/Home/HomeFilterAkb.vue';
+import HomeServicesFromStore from '@/components/Home/HomeServicesFromStore.vue';
+import HomeAboutUs from '@/components/Home/HomeAboutUs.vue';
 
 export default {
   components:{
     HomeSliderBenners,
     HomefilterAkb,
-    ServicesFromStore
+    HomeServicesFromStore,
+    HomeAboutUs,
   }
 }
 
