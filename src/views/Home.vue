@@ -19,7 +19,6 @@
     <!-- Прием старых акб -->
     <HomeReceivingOldBatteries/>
 
-
     <!-- Новости -->
     <HomeNews/>
 

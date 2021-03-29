@@ -2,7 +2,7 @@
   <div>
 
     <!-- Прием старых акб -->
-    <div class="Home-Receiving-Old-Batteries">
+    <div class="Home-Receiving-Old-Batteries marginB50">
       <p class="title-stock container">акция</p>
 
       <div class="content-banner flex-Vcenter">
