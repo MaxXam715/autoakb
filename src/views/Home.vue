@@ -16,6 +16,13 @@
     <!-- Товары -->
     <HomeGoods/>
 
+    <!-- Прием старых акб -->
+    <HomeReceivingOldBatteries/>
+
+
+    <!-- Новости -->
+    <HomeNews/>
+
 
   </div>
 </template>
@@ -27,6 +34,8 @@ import HomefilterAkb from '@/components/Home/HomeFilterAkb.vue';
 import HomeServicesFromStore from '@/components/Home/HomeServicesFromStore.vue';
 import HomeAboutUs from '@/components/Home/HomeAboutUs.vue';
 import HomeGoods from '@/components/Home/HomeGoods.vue';
+import HomeReceivingOldBatteries from '@/components/Home/HomeReceivingOldBatteries.vue';
+import HomeNews from '@/components/Home/HomeNews.vue';
 
 export default {
   components:{
@@ -35,6 +44,8 @@ export default {
     HomeServicesFromStore,
     HomeAboutUs,
     HomeGoods,
+    HomeReceivingOldBatteries,
+    HomeNews,
   }
 }
 

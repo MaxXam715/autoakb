@@ -41,6 +41,14 @@
     overflow-y: auto !important;
   }
 
+  .Home-Receiving-Old-Batteries .content-banner .left-photo {
+    display: none;
+  }
+
+  .Home-Receiving-Old-Batteries .content-banner .right-block {
+    padding: 85px 15% !important;
+  }
+
 }
 
 @media (max-width: 1538px) {
@@ -464,6 +472,25 @@
     font-size: 15vw !important;
     margin-top: -5.6vw !important;
   }
+
+  .Home-Receiving-Old-Batteries .content-banner .right-block {
+    padding: 50px 30px !important;
+  }
+
+  .Home-Receiving-Old-Batteries .content-banner .right-block .title {
+    font-size: 5vw;
+  }
+
+  .Home-Receiving-Old-Batteries .content-banner .right-block .text {
+    font-size: 13px !important;
+    line-height: 18px !important;
+  }
+
+  .Home-Receiving-Old-Batteries .title-stock {
+    font-size: 15vw !important;
+    padding-right: 20px !important;
+    margin-bottom: -15px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -651,11 +678,52 @@
   }
 
   .block-slider-banners {
-    height: 44vw !important;
+    height: 40vw !important;
   }
 
   .block-slider-banners .owl-carousel .owl-dots {
     display: none;
+  }
+
+  .goods-grid {
+    grid-template-columns: 1fr 1fr;
+
+    .goods-item {
+      padding: 20px 15px;
+
+      .photo-goods {
+        max-height: 200px;
+        padding: 0 10px;
+      }
+
+      .category-title {
+        font-size: 12px;
+        margin-bottom: 7px;
+      }
+
+      .name-product {
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .current-price {
+        font-size: 16px !important;
+      }
+
+      .exchange-price {
+        font-size: 12px !important;
+      }
+
+      .botom-card {
+        flex-direction: column;
+        margin-top: 10px;
+
+        .add-to-cart {
+          margin-left: auto;
+          margin-top: 10px;
+        }
+      }
+    }
   }
 
 }

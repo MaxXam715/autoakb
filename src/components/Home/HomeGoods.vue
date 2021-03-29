@@ -2,10 +2,10 @@
   <div>
 
     <!-- Товары -->
-    <div class="home-goods container">
+    <div class="home-goods container marginB50">
 
       <!-- Табы -->
-      <div class="tabs-goods flex-Vcenter">
+      <div class="tabs-goods flex-Vcenter hidden-scroll">
         <a class="link-tab active waves-effect waves-light" href="#tabs-1">Лидеры продаж</a>
         <a class="link-tab waves-effect waves-light" href="#tabs-2">Популярные товары</a>
         <a class="link-tab waves-effect waves-light" href="#tabs-3">Новинки</a>
@@ -13,30 +13,104 @@
       </div>
 
       <!-- Карусель -->
-      <div class="owl-carousel goods-owl-carousel">
+      <div class="home-goods-slide">
 
         <!-- Лидеры продаж -->
-        <div data-hash="tabs-1">
+        <div class="tabs-max active">
 
           <div class="goods-grid">
 
+            <!-- Товар -->
             <div class="goods-item">
-              <img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods">
+              <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
               <p class="category-title">Аккумулятор автомобильный</p>
-              <p class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</p>
-              <div class="box-price">
-                <div class="current-price">6 700 руб</div>
-                <div class="exchange-price">5 800 руб с обменом</div>
+              <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
+              <div class="botom-card flex-Gcenter-sb">
+                <div class="box-price">
+                  <p class="current-price">6 700 руб</p>
+                  <p class="exchange-price">5 800 руб с обменом</p>
+                </div>
+                <a href="javascript:void();" class="add-to-cart flex-center">
+                  <p class="title">В корзину</p>
+                  <div class="icon-box flex-center"><i class="icon cart"></i></div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Товар -->
+            <div class="goods-item">
+              <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-2.png" alt="goods"></a>
+              <p class="category-title">Аккумулятор автомобильный</p>
+              <a href="javascript:void();" class="name-product">Аккумулятор EXIDE EB955 12В 95Ач 720 A</a>
+              <div class="botom-card flex-Gcenter-sb">
+                <div class="box-price">
+                  <p class="current-price">6 700 руб</p>
+                  <p class="exchange-price">5 800 руб с обменом</p>
+                </div>
+                <a href="javascript:void();" class="add-to-cart flex-center">
+                  <p class="title">В корзину</p>
+                  <div class="icon-box flex-center"><i class="icon cart"></i></div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Товар -->
+            <div class="goods-item">
+              <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-3.png" alt="goods"></a>
+              <p class="category-title">Аккумулятор для мототехники</p>
+              <a href="javascript:void();" class="name-product">Аккумулятор Delta CT 1211 12В 24Ач 360CCA</a>
+              <div class="botom-card flex-Gcenter-sb">
+                <div class="box-price">
+                  <p class="current-price">6 700 руб</p>
+                  <p class="exchange-price">5 800 руб с обменом</p>
+                </div>
+                <a href="javascript:void();" class="add-to-cart flex-center">
+                  <p class="title">В корзину</p>
+                  <div class="icon-box flex-center"><i class="icon cart"></i></div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Товар -->
+            <div class="goods-item">
+              <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-4.png" alt="goods"></a>
+              <p class="category-title">Аккумулятор автомобильный</p>
+              <a href="javascript:void();" class="name-product">Аккумулятор VARTA G7 12В 95Ач 830 CCA</a>
+              <div class="botom-card flex-Gcenter-sb">
+                <div class="box-price">
+                  <p class="current-price">6 700 руб</p>
+                  <p class="exchange-price">5 800 руб с обменом</p>
+                </div>
+                <a href="javascript:void();" class="add-to-cart flex-center">
+                  <p class="title">В корзину</p>
+                  <div class="icon-box flex-center"><i class="icon cart"></i></div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Товар -->
+            <div class="goods-item">
+              <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-5.png" alt="goods"></a>
+              <p class="category-title">Дополнительное оборудовние</p>
+              <a href="javascript:void();" class="name-product">Зарядное устройство для аккумулятора KS-10А</a>
+              <div class="botom-card flex-Gcenter-sb">
+                <div class="box-price">
+                  <p class="current-price">6 700 руб</p>
+                  <p class="exchange-price">5 800 руб с обменом</p>
+                </div>
+                <a href="javascript:void();" class="add-to-cart flex-center">
+                  <p class="title">В корзину</p>
+                  <div class="icon-box flex-center"><i class="icon cart"></i></div>
+                </a>
               </div>
             </div>
 
           </div>
 
         </div>
-
-        <div data-hash="tabs-2">222222</div>
-        <div data-hash="tabs-3">333333</div>
-        <div data-hash="tabs-4">444444</div>
+        <div class="tabs-max">222222</div>
+        <div class="tabs-max">333333</div>
+        <div class="tabs-max">444444</div>
       </div>
 
     </div>
@@ -47,21 +121,31 @@
 <script>
 export default {
   mounted() {
-    $('.goods-owl-carousel').owlCarousel({
-      loop: false,
-      margin:10,
-      nav:false,
-      dots: false,
-      dotsEach: false,
-      URLhashListener:true,
-      autoplayHoverPause:true,
-      mouseDrag: false,
-      responsive:{
-        0:{
-          items:1
-        }
-      }
-    })
+    // $('.home-goods-slide').owlCarousel({
+    //   loop: false,
+    //   margin:10,
+    //   nav:false,
+    //   dots: false,
+    //   dotsEach: false,
+    //   URLhashListener:true,
+    //   autoplayHoverPause:true,
+    //   mouseDrag: false,
+    //   responsive:{
+    //     0:{
+    //       items:1
+    //     }
+    //   }
+    // })
+
+
+    // Переключение между вкладками
+    $('.home-goods .tabs-goods').on('click', 'a', function() {
+      let count = $( this ).index();
+      $('.home-goods-slide .tabs-max').removeClass('active');
+      $('.home-goods-slide .tabs-max').eq(count).addClass('active');
+
+    });
+
 
     // Отметка активного таба
     $('.home-goods .link-tab').click(function () {
@@ -76,6 +160,9 @@ export default {
 
 .home-goods {
   .tabs-goods {
+    overflow: auto;
+    margin-bottom: 30px;
+
     .link-tab {
       display: flex;
       padding: 15px 30px;
@@ -84,12 +171,23 @@ export default {
       font-weight: bold;
       font-size: 16px;
       margin-right: 10px;
-      margin-bottom: 30px;
+      white-space: nowrap;
       transition: all 0.2s;
+      overflow: initial !important;
 
       &.active {
         background-color: var(--color-red);
         color: #fff;
+      }
+    }
+  }
+
+  .home-goods-slide {
+    .tabs-max {
+      display: none;
+
+      &.active {
+        display: block;
       }
     }
   }

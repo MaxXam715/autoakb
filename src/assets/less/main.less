@@ -30,13 +30,15 @@
 /* изменение размеров */
 ::-webkit-resizer { background-color: red; cursor: pointer;box-shadow: none !important}
 
+.hidden-scroll::-webkit-scrollbar { width: 0px; height: 0px; cursor: pointer; box-shadow: none !important}
+
 // Конец - Custom scroll
 
 body {
   font-family: 'bibi';
   margin: 0;
   padding: 0;
-  height: 4000px;
+  height: 6000px;
   box-sizing: border-box;
   box-shadow: none !important
 }
@@ -502,30 +504,105 @@ input:focus {
 
 // Сетка с карточкой товаров
 
-.goods-item {
-  width: 309px;
-  padding: 25px;
-  border: 1px solid var(--color-LightBlue);
+.goods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
 
-  .photo-goods {
-    width: 100%;
-    height: 280px;
-    object-fit: contain;
-    max-height: 280px;
-    max-width: 230px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
+  .goods-item {
+    width: auto;
+    padding: 25px;
+    border: 1px solid var(--color-LightBlue);
+    margin-left: -1px;
+    margin-top: -1px;
 
-  .category-title {
-    font-size: 14px;
-    color: var(--color-gray);
-    margin-bottom: 10px;
-  }
+    .photo-goods {
+      width: 100%;
+      height: 280px;
+      object-fit: contain;
+      max-height: 280px;
+      max-width: 230px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
 
-  .name-product {
-    font-size: 16px;
-    color: #000;
-    font-weight: 600;
+    .category-title {
+      font-size: 14px;
+      color: var(--color-gray);
+      margin-bottom: 10px;
+    }
+
+    .name-product {
+      display: flex;
+      font-size: 16px;
+      color: #000;
+      font-weight: 600;
+      transition: all 0.2s;
+
+
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -moz-box;
+      -moz-box-orient: vertical;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      line-clamp: 2;
+      box-orient: vertical;
+
+
+      &:hover {
+        color: var(--color-red);
+      }
+    }
+
+    .botom-card {
+      align-items: flex-start;
+      margin-top: 20px;
+
+      .box-price {
+        .current-price {
+          font-size: 20px;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+
+        .exchange-price {
+          font-size: 14px;
+          color: var(--color-gray);
+        }
+      }
+
+      .add-to-cart {
+        background-color: rgba(246, 16, 25, .16);
+        border-radius: 3px;
+        overflow: hidden;
+        min-width: 114px;
+        transition: all 0.2s;
+
+        &:hover {
+          box-shadow: 0px 4px 15px rgba(246, 16, 25, 0.1);
+        }
+
+        .title {
+          color: var(--color-red);
+          font-size: 14px;
+          font-weight: 600;
+          padding: 5px 10px;
+        }
+
+        .icon-box {
+          background-color: var(--color-red);
+          height: 28px;
+          width: 28px;
+          border-radius: 3px;
+
+          i {
+            background-color: #fff;
+            font-size: 18px;
+          }
+        }
+      }
+    }
   }
 }
+
