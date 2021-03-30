@@ -16,7 +16,7 @@
 
 import MobileHeader from "@/components/Moblie/MobileHeader";
 import MainHeader from "@/components/Header/MainHeader";
-import MainFooter from "@/components/MainFooter";
+import MainFooter from "@/components/Footer/MainFooter";
 
 
 // Скрипты JS / JQ

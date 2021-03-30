@@ -249,6 +249,10 @@ export default {
         align-items: flex-start;
         margin-bottom: 20px;
 
+        &:last-child {
+          margin-bottom: 0;
+        }
+
         a {
           margin: 0;
           line-height: 0;

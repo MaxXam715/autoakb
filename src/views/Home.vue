@@ -22,6 +22,8 @@
     <!-- Новости -->
     <HomeNews/>
 
+    <!-- Форма обратной связи -->
+    <HomeCallBackForm/>
 
   </div>
 </template>
@@ -35,6 +37,7 @@ import HomeAboutUs from '@/components/Home/HomeAboutUs.vue';
 import HomeGoods from '@/components/Home/HomeGoods.vue';
 import HomeReceivingOldBatteries from '@/components/Home/HomeReceivingOldBatteries.vue';
 import HomeNews from '@/components/Home/HomeNews.vue';
+import HomeCallBackForm from '@/components/Home/HomeCallBackForm.vue';
 
 export default {
   components:{
@@ -45,6 +48,7 @@ export default {
     HomeGoods,
     HomeReceivingOldBatteries,
     HomeNews,
+    HomeCallBackForm
   }
 }
 
