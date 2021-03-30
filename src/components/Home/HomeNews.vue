@@ -6,7 +6,7 @@
 
       <!-- Заголовок -->
       <div class="head-title-red flex-Vcenter container marginB50">
-        <p class="title">О нас</p>
+        <p class="title">Новости</p>
         <div class="line"></div>
       </div>
 
@@ -28,12 +28,121 @@
             <div class="line"></div>
           </div>
 
-          <div class="item-news">
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-1.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
 
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-2.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
+
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-3.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
+
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-4.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
           </div>
 
         </div>
 
+        <div class="categoty-item">
+
+          <div class="header flex-Vcenter">
+            <p class="title">Мото</p>
+            <div class="line"></div>
+          </div>
+
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-1.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
+
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-2.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
+
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-3.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
+
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-4.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="categoty-item">
+
+          <div class="header flex-Vcenter">
+            <p class="title">АККУМУЛЯТОРЫ</p>
+            <div class="line"></div>
+          </div>
+
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-1.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
+
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-2.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
+
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-3.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
+
+          <div class="item-news flex-Vcenter">
+            <a href="#"><img class="photo" src="@/assets/img/item-news-4.png" alt="img"></a>
+            <div class="text">
+              <p class="date">27 сентября</p>
+              <a href="#"><p class="header">Бесплатная установка - удобно и выгодно!</p></a>
+            </div>
+          </div>
+
+        </div>
 
       </div>
 
@@ -53,15 +162,14 @@ export default {
 .home-news {
   .content-home-news {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30p;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
 
     .first-news {
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      width: 362px;
       height: 480px;
       padding: 30px;
       color: #fff;
@@ -119,10 +227,11 @@ export default {
     }
 
     .categoty-item {
-      .header {
+      > .header {
         display: grid;
         grid-template-columns: auto 1fr;
         grid-gap: 20px;
+        margin-bottom: 20px;
 
         .title {
           text-transform: uppercase;
@@ -135,6 +244,53 @@ export default {
           background-color: var(--color-LightBlue);
         }
       }
+
+      .item-news {
+        align-items: flex-start;
+        margin-bottom: 20px;
+
+        a {
+          margin: 0;
+          line-height: 0;
+          color: inherit;
+        }
+
+        .photo {
+          width: 166px;
+          height: 94px;
+          object-fit: cover;
+        }
+
+        .text {
+          margin-left: 10px;
+          .date {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 13px;
+            color: var(--color-gray);
+          }
+
+          .header {
+            font-size: 15px;
+            font-weight: 700;
+            transition: all 0.2s;
+
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -moz-box;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            line-clamp: 2;
+            box-orient: vertical;
+
+            &:hover {
+              color: var(--color-red);
+            }
+          }
+        }
+      }
+
     }
   }
 }
