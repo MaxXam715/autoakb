@@ -329,6 +329,37 @@
     font-size: 15px;
   }
 
+  .footer-Subscribe-Newsletter {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .left-col {
+        margin-bottom: 20px;
+      }
+
+      .right-col {
+        flex-direction: column;
+        width: 100%;
+
+        form {
+          flex-direction: column;
+
+          button {
+            width: 100%;
+            padding: 12px 30px !important;
+            font-size: 13px !important;
+            font-weight: 600;
+          }
+        }
+
+        .input-box {
+          width: 100%;
+        }
+      }
+    }
+  }
+
 }
 
 @media (max-width: 1038px) {
@@ -790,6 +821,23 @@
           margin-left: auto;
           margin-top: 10px;
         }
+      }
+    }
+  }
+
+  .footer-Subscribe-Newsletter {
+    .left-col {
+      .title {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .description {
+        font-size: 13px;
+      }
+
+      img {
+        display: none;
       }
     }
   }

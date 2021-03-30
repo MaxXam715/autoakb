@@ -26,4 +26,8 @@ export default {
 
 <style lang="less">
 
+footer {
+  margin-top: 100px;
+}
+
 </style>
