@@ -121,22 +121,6 @@
 <script>
 export default {
   mounted() {
-    // $('.home-goods-slide').owlCarousel({
-    //   loop: false,
-    //   margin:10,
-    //   nav:false,
-    //   dots: false,
-    //   dotsEach: false,
-    //   URLhashListener:true,
-    //   autoplayHoverPause:true,
-    //   mouseDrag: false,
-    //   responsive:{
-    //     0:{
-    //       items:1
-    //     }
-    //   }
-    // })
-
 
     // Переключение между вкладками
     $('.home-goods .tabs-goods').on('click', 'a', function() {

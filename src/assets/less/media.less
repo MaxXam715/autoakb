@@ -411,8 +411,13 @@
 
 // Планшеты
 @media (max-width: 980px) {
-  .container {
-    width: calc(100% - 20px);
+  .container,
+  .container-midle {
+    width: calc(100% - 30px);
+  }
+
+  footer {
+    grid-gap: 30px !important;
   }
 
   header {
@@ -589,6 +594,23 @@
     font-size: 15vw !important;
     padding-right: 20px !important;
     margin-bottom: -15px;
+  }
+
+  footer {
+    padding-bottom: 70px;
+
+    .bottom-box {
+      flex-direction: column;
+      justify-content: center;
+
+      .social-network {
+        margin-left: 0;
+      }
+
+      .terms-sale {
+        margin: 15px 0;
+      }
+    }
   }
 }
 
@@ -777,7 +799,7 @@
   }
 
   .block-slider-banners {
-    height: 40vw !important;
+    height: 44vw !important;
   }
 
   .block-slider-banners .owl-carousel .owl-dots {
@@ -839,6 +861,19 @@
       img {
         display: none;
       }
+    }
+  }
+
+  .btn-page-up {
+    right: 15px;
+
+    .title {
+      display: none;
+    }
+
+    .circle {
+      width: 50px;
+      height: 50px;
     }
   }
 
