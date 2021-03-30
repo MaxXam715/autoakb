@@ -185,6 +185,7 @@ export default {
   max-width: 790px;
   max-height: 830px;
   overflow: hidden;
+  max-height: inherit !important;
 
   .modal-content {
     padding: 30px;
