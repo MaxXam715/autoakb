@@ -10,7 +10,7 @@
         <div class="right-block" :style="{'background-image': 'url(' + require('@/assets/img/background-img-receiving.png') + ')'}">
           <p class="title">ПРИЁМ СТАРЫХ АККУМУЛЯТОРОВ ПО <span>ВЫГОДНЫМ ЦЕНАМ!</span></p>
           <p class="text">Собрались сдать старый автомобильный аккумулятор? – Сделайте это в наших магазинах на Лениногорской или на Электродной! <br> (45 руб за килограмм)</p>
-          <a class="link flex-Vcenter waves-effect waves-light" href="#">Сдать свой аккумулятор <i class="icon arrowRight"></i></a>
+          <a class="link flex-Vcenter waves-effect waves-light modal-trigger" href="#modal-bu">Сдать свой аккумулятор <i class="icon arrowRight"></i></a>
         </div>
       </div>
     </div>

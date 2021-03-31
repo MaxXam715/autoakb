@@ -191,35 +191,35 @@ export default function() {
 
 
 
+    // Кастомные кнопки + - для input
     $(function() {
 
-    (function quantityProducts() {
-        var $quantityArrowMinus = $("header .cart-container .left-col .count-btn .minus-input");
-        var $quantityArrowPlus = $("header .cart-container .left-col .count-btn .plus-input");
-        var $quantityNum = $("header .cart-container .left-col .count-btn input");
+        // Убавляем кол-во по клику
+        $('.count-btn .minus-input').click(function() {
+            let $input = $(this).parent().find('input');
+            let count = parseInt($input.val()) - 1;
+            count = count < 1 ? 1 : count;
+            $input.val(count);
 
-        $quantityArrowMinus.click(function () {
-            if ($quantityNum.val() > 1) {
-                $quantityNum.parent().find('input').val(+$quantityNum.val() - 1);
-            } else {
-                $($quantityArrowMinus).removeClass('active')
+            if (count < 2) {
+                $(this).parent().find('.minus-input').removeClass('active')
             }
+
         });
-        $quantityArrowPlus.click(quantityPlus);
 
-        function quantityMinus() {
-            if ($quantityNum.val() > 0) {
-                $quantityNum=$(this).siblings("input");
-                $quantityNum.val(+$quantityNum.val() - 1);
+        // Прибавляем кол-во по клику
+        $('.count-btn .plus-input').click(function() {
+            let $input = $(this).parent().find('input');
+            let count = parseInt($input.val()) + 1;
+            count = count > parseInt($input.data('max-count')) ? parseInt($input.data('max-count')) : count;
+            $input.val(parseInt(count));
+
+            if (count > 1) {
+                console.log('Добавляем +')
+                $(this).parent().find('.minus-input').addClass('active')
             }
-        }
 
-        function quantityPlus() {
-            $quantityNum=$(this).siblings("input");
-            $quantityNum.val(+$quantityNum.val() + 1);
-        }
-
-    })();
+        });
 
     });
 

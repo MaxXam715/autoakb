@@ -1,10 +1,10 @@
 <template>
 
   <div class="owl-carousel carousel-akb">
-    <div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div>
-    <div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div>
-    <div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div>
-    <div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div>
+    <a href="#modal-bu" class="modal-trigger"><div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div></a>
+    <a href="#modal-bu" class="modal-trigger"><div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div></a>
+    <a href="#modal-bu" class="modal-trigger"><div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div></a>
+    <a href="#modal-bu" class="modal-trigger"><div class="box ratio-1_1" :style="{'background-image': 'url(' + require('@/assets/img/slider/slider-img-1.png') + ')'}"></div></a>
   </div>
 
 </template>

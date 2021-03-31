@@ -35,6 +35,35 @@
                   <div class="icon-box flex-center"><i class="icon cart"></i></div>
                 </a>
               </div>
+
+              <div class="parametrs-akb">
+
+                <div class="item">
+                  <p class="title">Емкость</p>
+                  <div class="line"></div>
+                  <p class="value">220 А/ч</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Пусковой ток</p>
+                  <div class="line"></div>
+                  <p class="value">1400 А</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Полярность</p>
+                  <div class="line"></div>
+                  <p class="value">Прямая [+-]</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Габариты</p>
+                  <div class="line"></div>
+                  <p class="value">518 х 276 х 242 мм</p>
+                </div>
+
+              </div>
+
             </div>
 
             <!-- Товар -->
@@ -51,6 +80,34 @@
                   <p class="title">В корзину</p>
                   <div class="icon-box flex-center"><i class="icon cart"></i></div>
                 </a>
+              </div>
+
+              <div class="parametrs-akb">
+
+                <div class="item">
+                  <p class="title">Емкость</p>
+                  <div class="line"></div>
+                  <p class="value">220 А/ч</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Пусковой ток</p>
+                  <div class="line"></div>
+                  <p class="value">1400 А</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Полярность</p>
+                  <div class="line"></div>
+                  <p class="value">Прямая [+-]</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Габариты</p>
+                  <div class="line"></div>
+                  <p class="value">518 х 276 х 242 мм</p>
+                </div>
+
               </div>
             </div>
 
@@ -69,6 +126,35 @@
                   <div class="icon-box flex-center"><i class="icon cart"></i></div>
                 </a>
               </div>
+
+              <div class="parametrs-akb">
+
+                <div class="item">
+                  <p class="title">Емкость</p>
+                  <div class="line"></div>
+                  <p class="value">220 А/ч</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Пусковой ток</p>
+                  <div class="line"></div>
+                  <p class="value">1400 А</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Полярность</p>
+                  <div class="line"></div>
+                  <p class="value">Прямая [+-]</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Габариты</p>
+                  <div class="line"></div>
+                  <p class="value">518 х 276 х 242 мм</p>
+                </div>
+
+              </div>
+
             </div>
 
             <!-- Товар -->
@@ -86,6 +172,35 @@
                   <div class="icon-box flex-center"><i class="icon cart"></i></div>
                 </a>
               </div>
+
+              <div class="parametrs-akb">
+
+                <div class="item">
+                  <p class="title">Емкость</p>
+                  <div class="line"></div>
+                  <p class="value">220 А/ч</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Пусковой ток</p>
+                  <div class="line"></div>
+                  <p class="value">1400 А</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Полярность</p>
+                  <div class="line"></div>
+                  <p class="value">Прямая [+-]</p>
+                </div>
+
+                <div class="item">
+                  <p class="title">Габариты</p>
+                  <div class="line"></div>
+                  <p class="value">518 х 276 х 242 мм</p>
+                </div>
+
+              </div>
+
             </div>
 
             <!-- Товар -->
@@ -103,6 +218,7 @@
                   <div class="icon-box flex-center"><i class="icon cart"></i></div>
                 </a>
               </div>
+
             </div>
 
           </div>

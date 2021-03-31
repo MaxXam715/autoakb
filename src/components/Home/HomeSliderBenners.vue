@@ -14,8 +14,8 @@
 
     <!-- Баннеры справа -->
     <div class="banners">
-      <img src="@/assets/img/banners/banner-1.png" alt="">
-      <img src="@/assets/img/banners/banner-2.png" alt="">
+      <a href="#"><img src="@/assets/img/banners/banner-1.png" alt=""></a>
+      <a href="#"><img src="@/assets/img/banners/banner-2.png" alt=""></a>
     </div>
 
 
@@ -97,15 +97,19 @@ export default {
     height: 100%;
     margin-left: 30px;
 
-    img {
-      width: 100%;
-      height: auto;
-      max-height: 215px;
-      max-width: 460px;
-      margin-bottom: 30px;
-      object-fit: cover;
+    a {
+      line-height: 0;
 
-      &:last-child {
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 215px;
+        max-width: 460px;
+        margin-bottom: 30px;
+        object-fit: cover;
+      }
+
+      &:last-child img {
         margin-bottom: 0;
       }
     }
