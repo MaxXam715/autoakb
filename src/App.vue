@@ -11,7 +11,6 @@
 </template>
 
 
-
 <script>
 
 import MobileHeader from "@/components/Moblie/MobileHeader";
@@ -53,6 +52,7 @@ export default {
   mounted() {
     this.$nextTick(()=>{
       $(document).ready(onload);
+
     })
   }
 }

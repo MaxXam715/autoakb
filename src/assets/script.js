@@ -6,7 +6,7 @@ export default function() {
 
     // Инициализация materialize UI
     M.AutoInit();
-    // Инициализация Анимации при появлении на экране
+
     // dropdown (materialize UI)
     $('.dropdown-trigger').dropdown();
 
@@ -59,10 +59,6 @@ export default function() {
         srcClass.removeClass('animate__fadeOut');
         srcClass.addClass('animate__fadeIn');
 
-        let srcClassGroup = $('.product-catalog .manufacturer .contain');
-        srcClassGroup.addClass('opacity-0');
-        srcClassGroup.addClass('animate__fadeOut');
-        srcClassGroup.removeClass('animate__fadeIn');
     })
 
     $('.product-catalog .list-categories .itemCat').mouseout(function() {

@@ -130,3 +130,19 @@ i.icon.quality {
 i.icon.guarantees {
     mask-image: url('guarantees.svg')
 }
+
+i.icon.Sort-no {
+    mask-image: url('Sort-no.svg')
+}
+
+i.icon.Sort-down {
+    mask-image: url('Sort-down.svg')
+}
+
+i.icon.Sort-up {
+    mask-image: url('Sort-up.svg')
+}
+
+i.icon.Sort-date {
+    mask-image: url('Sort-date.svg')
+}

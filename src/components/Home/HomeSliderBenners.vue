@@ -14,8 +14,8 @@
 
     <!-- Баннеры справа -->
     <div class="banners">
-      <a href="#"><img src="@/assets/img/banners/banner-1.png" alt=""></a>
-      <a href="#"><img src="@/assets/img/banners/banner-2.png" alt=""></a>
+      <router-link to="/Catalog" exact><img class="banner-2" src="@/assets/img/banners/banner-1.png" alt=""></router-link>
+      <a href="#"><img class="banner-3" src="@/assets/img/banners/banner-2.png" alt=""></a>
     </div>
 
 
@@ -105,13 +105,13 @@ export default {
         height: auto;
         max-height: 215px;
         max-width: 460px;
-        margin-bottom: 30px;
         object-fit: cover;
       }
 
-      &:last-child img {
-        margin-bottom: 0;
-      }
+    }
+
+    .banner-3 {
+      margin-top: 30px;
     }
   }
 

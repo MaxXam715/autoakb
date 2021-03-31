@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <!-- Форма обратной связи -->
+    <!-- Подписаться на рассылку -->
     <FooterSubscribeToNewsletter/>
 
     <footer class="">
@@ -83,6 +83,7 @@
         </div>
       </div>
 
+      <!-- Кнопка "НАВЕРХ" -->
       <ButtonPageUp/>
 
 
@@ -94,13 +95,13 @@
 
 <script>
 
-import FooterSubscribeToNewsletter from '@/components/Footer/FooterSubscribeToNewsletter.vue';
 import ButtonPageUp from '@/components/Footer/ButtonPageUp.vue';
+import FooterSubscribeToNewsletter from '@/components/Footer/FooterSubscribeToNewsletter.vue';
 
 export default {
   components:{
-    FooterSubscribeToNewsletter,
-    ButtonPageUp
+    ButtonPageUp,
+    FooterSubscribeToNewsletter
   }
 }
 
@@ -109,7 +110,6 @@ export default {
 <style lang="less">
 
 footer {
-  margin-top: 100px !important;
 
   .top-box {
     display: grid !important;

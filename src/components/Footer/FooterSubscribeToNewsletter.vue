@@ -1,6 +1,7 @@
 <template>
   <div>
 
+    <!-- Подписаться на рассылку -->
     <div class="footer-Subscribe-Newsletter">
       <div class="container flex-Gcenter-sb">
         <div class="left-col flex-Vcenter">
@@ -37,7 +38,7 @@
   padding: 50px 0;
   color: #fff;
   background: linear-gradient(90.21deg, #2F343A 0.07%, #101511 99.93%);
-  margin-bottom: -100px;
+  margin-top: 100px;
 
   .left-col {
     img {

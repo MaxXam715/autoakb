@@ -25,7 +25,7 @@
               <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
               <p class="category-title">Аккумулятор автомобильный</p>
               <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
-              <div class="botom-card flex-Gcenter-sb">
+              <div class="bottom-card flex-Gcenter-sb">
                 <div class="box-price">
                   <p class="current-price">6 700 руб</p>
                   <p class="exchange-price">5 800 руб с обменом</p>
@@ -71,7 +71,7 @@
               <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-2.png" alt="goods"></a>
               <p class="category-title">Аккумулятор автомобильный</p>
               <a href="javascript:void();" class="name-product">Аккумулятор EXIDE EB955 12В 95Ач 720 A</a>
-              <div class="botom-card flex-Gcenter-sb">
+              <div class="bottom-card flex-Gcenter-sb">
                 <div class="box-price">
                   <p class="current-price">6 700 руб</p>
                   <p class="exchange-price">5 800 руб с обменом</p>
@@ -116,7 +116,7 @@
               <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-3.png" alt="goods"></a>
               <p class="category-title">Аккумулятор для мототехники</p>
               <a href="javascript:void();" class="name-product">Аккумулятор Delta CT 1211 12В 24Ач 360CCA</a>
-              <div class="botom-card flex-Gcenter-sb">
+              <div class="bottom-card flex-Gcenter-sb">
                 <div class="box-price">
                   <p class="current-price">6 700 руб</p>
                   <p class="exchange-price">5 800 руб с обменом</p>
@@ -162,7 +162,7 @@
               <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-4.png" alt="goods"></a>
               <p class="category-title">Аккумулятор автомобильный</p>
               <a href="javascript:void();" class="name-product">Аккумулятор VARTA G7 12В 95Ач 830 CCA</a>
-              <div class="botom-card flex-Gcenter-sb">
+              <div class="bottom-card flex-Gcenter-sb">
                 <div class="box-price">
                   <p class="current-price">6 700 руб</p>
                   <p class="exchange-price">5 800 руб с обменом</p>
@@ -208,7 +208,7 @@
               <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-5.png" alt="goods"></a>
               <p class="category-title">Дополнительное оборудовние</p>
               <a href="javascript:void();" class="name-product">Зарядное устройство для аккумулятора KS-10А</a>
-              <div class="botom-card flex-Gcenter-sb">
+              <div class="bottom-card flex-Gcenter-sb">
                 <div class="box-price">
                   <p class="current-price">6 700 руб</p>
                   <p class="exchange-price">5 800 руб с обменом</p>
@@ -240,7 +240,7 @@ export default {
 
     // Переключение между вкладками
     $('.home-goods .tabs-goods').on('click', 'a', function() {
-      let count = $( this ).index();
+      let count = $(this).index();
       $('.home-goods-slide .tabs-max').removeClass('active');
       $('.home-goods-slide .tabs-max').eq(count).addClass('active');
 
@@ -248,7 +248,7 @@ export default {
 
 
     // Отметка активного таба
-    $('.home-goods .link-tab').click(function () {
+    $('.home-goods .link-tab').click(function() {
       $('.home-goods .link-tab').removeClass('active')
       $(this).addClass('active');
     })
@@ -257,7 +257,6 @@ export default {
 </script>
 
 <style lang="less">
-
 .home-goods {
   .tabs-goods {
     overflow: auto;
@@ -292,5 +291,4 @@ export default {
     }
   }
 }
-
 </style>
