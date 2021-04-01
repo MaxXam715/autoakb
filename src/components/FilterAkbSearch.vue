@@ -7,12 +7,25 @@
 
       <!-- Брен -->
       <div class="item-form">
+        <label>Категория</label>
+        <select>
+          <option value="" disabled selected>Выбрать</option>
+          <option value="1">Автомобильные акб</option>
+          <option value="2">Мото акб</option>
+          <option value="3">Грузовые акб</option>
+          <option value="3">Тяговые акб</option>
+        </select>
+      </div>
+
+      <!-- Брен -->
+      <div class="item-form">
         <label>Брен</label>
         <select>
           <option value="" disabled selected>Выбрать</option>
-          <option value="1">Bosh</option>
-          <option value="2">Akra</option>
-          <option value="3">Varta</option>
+          <option value="1">Любой</option>
+          <option value="2">Bosh</option>
+          <option value="3">Akra</option>
+          <option value="4">Varta</option>
         </select>
       </div>
 
@@ -105,6 +118,19 @@
         <div class="item-form">
           <label class="opacity-0">Ток пуска А</label>
           <input type="text" placeholder="0">
+        </div>
+      </div>
+
+      <!-- Цена -->
+      <div class="two-form">
+        <div class="item-form">
+          <label>Цена</label>
+          <input type="text" placeholder="От">
+        </div>
+        <div class="line"></div>
+        <div class="item-form">
+          <label class="opacity-0">Цена</label>
+          <input type="text" placeholder="До">
         </div>
       </div>
 

@@ -669,11 +669,27 @@ export default {
 
 .slide-filter-08945 {
   padding: 30px;
-  padding-bottom: 0;
-  height: 100%;
+
+
+  &.filter-search {
+    height: 600px;
+    overflow-y: auto;
+  }
 
   .header {
     margin-bottom: 30px;
+
+      .find-col {
+        color: var(--color-red);
+        font-size: 20px;
+        font-weight: bold;
+
+        i {
+          font-size: 15px;
+          margin-left: 10px;
+          background-color: var(--color-red);
+        }
+      }
 
     .title {
       font-size: 25px;
@@ -846,52 +862,6 @@ export default {
       color: #000;
     }
   }
-}
-
-
-#mobile-modal-filter {
-  top: 0 !important;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  max-height: initial;
-  background-color: #fff;
-
-  .content {
-    padding: 20px;
-    background-color: #fff;
-  }
-
-  .slide-filter-08945 {
-
-    .step-filter {
-      .header {
-        i {
-          font-size: 20px;
-          background-color: var(--color-gray);
-        }
-      }
-    }
-
-    .car-brand {
-      height: inherit;
-      overflow-x: inherit;
-      overflow-y: inherit;
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
-    }
-
-    .list-parametr {
-      .list-model {
-        height: inherit;
-
-        .item-list {
-          margin-left: 0;
-        }
-      }
-    }
-  }
-
-
 }
 
 </style>

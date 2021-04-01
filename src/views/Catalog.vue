@@ -20,6 +20,8 @@
           <p class="text">Магазин autoakb.ru предлагает Вам быстрый подбор аккумулятора по марке и модели автомобиля. Всего в несколько кликов мышью Вы получите полный список аккумуляторов для Вашего автомобиля! У нас Вы всегда найдете аккумулятор, оптимально подходящий Вам по техническим характеристикам и стоимости. А еще в нашем магазине Вас ждут доступные цены, качественный сервис, выбор удобного способа оплаты, доставка в любое место, установка, прием старых батарей!</p>
         </div>
 
+        <a href="#mobile-modal-filter" class="item-category-akb flex-center waves-effect waves-light modal-trigger large-hiden">Фильтр <i class="icon setting"></i></a>
+
         <div class="count-goods-catalog flex-Gcenter-sb">
           <p class="count">250 товаров</p>
           <div class="sort-dropdown-trigger flex-Vcenter">
@@ -39,11 +41,287 @@
           </div>
         </div>
 
-        <div class="goods-grid">
+        <div class="goods-grid marginB50">
 
           <!-- Товар -->
           <div class="goods-item">
             <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
+            <p class="category-title">Аккумулятор автомобильный</p>
+            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
+            <div class="bottom-card flex-Gcenter-sb">
+              <div class="box-price">
+                <p class="current-price">6 700 руб</p>
+                <p class="exchange-price">5 800 руб с обменом</p>
+              </div>
+              <a href="javascript:void();" class="add-to-cart flex-center">
+                <p class="title">В корзину</p>
+                <div class="icon-box flex-center"><i class="icon cart"></i></div>
+              </a>
+            </div>
+
+            <div class="parametrs-akb">
+
+              <div class="item">
+                <p class="title">Емкость</p>
+                <div class="line"></div>
+                <p class="value">220 А/ч</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Пусковой ток</p>
+                <div class="line"></div>
+                <p class="value">1400 А</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Полярность</p>
+                <div class="line"></div>
+                <p class="value">Прямая [+-]</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Габариты</p>
+                <div class="line"></div>
+                <p class="value">518 х 276 х 242 мм</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Товар -->
+          <div class="goods-item">
+            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-2.png" alt="goods"></a>
+            <p class="category-title">Аккумулятор автомобильный</p>
+            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
+            <div class="bottom-card flex-Gcenter-sb">
+              <div class="box-price">
+                <p class="current-price">6 700 руб</p>
+                <p class="exchange-price">5 800 руб с обменом</p>
+              </div>
+              <a href="javascript:void();" class="add-to-cart flex-center">
+                <p class="title">В корзину</p>
+                <div class="icon-box flex-center"><i class="icon cart"></i></div>
+              </a>
+            </div>
+
+            <div class="parametrs-akb">
+
+              <div class="item">
+                <p class="title">Емкость</p>
+                <div class="line"></div>
+                <p class="value">220 А/ч</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Пусковой ток</p>
+                <div class="line"></div>
+                <p class="value">1400 А</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Полярность</p>
+                <div class="line"></div>
+                <p class="value">Прямая [+-]</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Габариты</p>
+                <div class="line"></div>
+                <p class="value">518 х 276 х 242 мм</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Товар -->
+          <div class="goods-item">
+            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-3.png" alt="goods"></a>
+            <p class="category-title">Аккумулятор автомобильный</p>
+            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
+            <div class="bottom-card flex-Gcenter-sb">
+              <div class="box-price">
+                <p class="current-price">6 700 руб</p>
+                <p class="exchange-price">5 800 руб с обменом</p>
+              </div>
+              <a href="javascript:void();" class="add-to-cart flex-center">
+                <p class="title">В корзину</p>
+                <div class="icon-box flex-center"><i class="icon cart"></i></div>
+              </a>
+            </div>
+
+            <div class="parametrs-akb">
+
+              <div class="item">
+                <p class="title">Емкость</p>
+                <div class="line"></div>
+                <p class="value">220 А/ч</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Пусковой ток</p>
+                <div class="line"></div>
+                <p class="value">1400 А</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Полярность</p>
+                <div class="line"></div>
+                <p class="value">Прямая [+-]</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Габариты</p>
+                <div class="line"></div>
+                <p class="value">518 х 276 х 242 мм</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Товар -->
+          <div class="goods-item">
+            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-4.png" alt="goods"></a>
+            <p class="category-title">Аккумулятор автомобильный</p>
+            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
+            <div class="bottom-card flex-Gcenter-sb">
+              <div class="box-price">
+                <p class="current-price">6 700 руб</p>
+                <p class="exchange-price">5 800 руб с обменом</p>
+              </div>
+              <a href="javascript:void();" class="add-to-cart flex-center">
+                <p class="title">В корзину</p>
+                <div class="icon-box flex-center"><i class="icon cart"></i></div>
+              </a>
+            </div>
+
+            <div class="parametrs-akb">
+
+              <div class="item">
+                <p class="title">Емкость</p>
+                <div class="line"></div>
+                <p class="value">220 А/ч</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Пусковой ток</p>
+                <div class="line"></div>
+                <p class="value">1400 А</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Полярность</p>
+                <div class="line"></div>
+                <p class="value">Прямая [+-]</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Габариты</p>
+                <div class="line"></div>
+                <p class="value">518 х 276 х 242 мм</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Товар -->
+          <div class="goods-item">
+            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-3.png" alt="goods"></a>
+            <p class="category-title">Аккумулятор автомобильный</p>
+            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
+            <div class="bottom-card flex-Gcenter-sb">
+              <div class="box-price">
+                <p class="current-price">6 700 руб</p>
+                <p class="exchange-price">5 800 руб с обменом</p>
+              </div>
+              <a href="javascript:void();" class="add-to-cart flex-center">
+                <p class="title">В корзину</p>
+                <div class="icon-box flex-center"><i class="icon cart"></i></div>
+              </a>
+            </div>
+
+            <div class="parametrs-akb">
+
+              <div class="item">
+                <p class="title">Емкость</p>
+                <div class="line"></div>
+                <p class="value">220 А/ч</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Пусковой ток</p>
+                <div class="line"></div>
+                <p class="value">1400 А</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Полярность</p>
+                <div class="line"></div>
+                <p class="value">Прямая [+-]</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Габариты</p>
+                <div class="line"></div>
+                <p class="value">518 х 276 х 242 мм</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Товар -->
+          <div class="goods-item">
+            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-4.png" alt="goods"></a>
+            <p class="category-title">Аккумулятор автомобильный</p>
+            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
+            <div class="bottom-card flex-Gcenter-sb">
+              <div class="box-price">
+                <p class="current-price">6 700 руб</p>
+                <p class="exchange-price">5 800 руб с обменом</p>
+              </div>
+              <a href="javascript:void();" class="add-to-cart flex-center">
+                <p class="title">В корзину</p>
+                <div class="icon-box flex-center"><i class="icon cart"></i></div>
+              </a>
+            </div>
+
+            <div class="parametrs-akb">
+
+              <div class="item">
+                <p class="title">Емкость</p>
+                <div class="line"></div>
+                <p class="value">220 А/ч</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Пусковой ток</p>
+                <div class="line"></div>
+                <p class="value">1400 А</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Полярность</p>
+                <div class="line"></div>
+                <p class="value">Прямая [+-]</p>
+              </div>
+
+              <div class="item">
+                <p class="title">Габариты</p>
+                <div class="line"></div>
+                <p class="value">518 х 276 х 242 мм</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Товар -->
+          <div class="goods-item">
+            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-2.png" alt="goods"></a>
             <p class="category-title">Аккумулятор автомобильный</p>
             <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
             <div class="bottom-card flex-Gcenter-sb">
@@ -135,7 +413,7 @@
 
           <!-- Товар -->
           <div class="goods-item">
-            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
+            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-2.png" alt="goods"></a>
             <p class="category-title">Аккумулятор автомобильный</p>
             <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
             <div class="bottom-card flex-Gcenter-sb">
@@ -227,7 +505,7 @@
 
           <!-- Товар -->
           <div class="goods-item">
-            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
+            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-4.png" alt="goods"></a>
             <p class="category-title">Аккумулятор автомобильный</p>
             <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
             <div class="bottom-card flex-Gcenter-sb">
@@ -273,283 +551,7 @@
 
           <!-- Товар -->
           <div class="goods-item">
-            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
-            <p class="category-title">Аккумулятор автомобильный</p>
-            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
-            <div class="bottom-card flex-Gcenter-sb">
-              <div class="box-price">
-                <p class="current-price">6 700 руб</p>
-                <p class="exchange-price">5 800 руб с обменом</p>
-              </div>
-              <a href="javascript:void();" class="add-to-cart flex-center">
-                <p class="title">В корзину</p>
-                <div class="icon-box flex-center"><i class="icon cart"></i></div>
-              </a>
-            </div>
-
-            <div class="parametrs-akb">
-
-              <div class="item">
-                <p class="title">Емкость</p>
-                <div class="line"></div>
-                <p class="value">220 А/ч</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Пусковой ток</p>
-                <div class="line"></div>
-                <p class="value">1400 А</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Полярность</p>
-                <div class="line"></div>
-                <p class="value">Прямая [+-]</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Габариты</p>
-                <div class="line"></div>
-                <p class="value">518 х 276 х 242 мм</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- Товар -->
-          <div class="goods-item">
-            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
-            <p class="category-title">Аккумулятор автомобильный</p>
-            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
-            <div class="bottom-card flex-Gcenter-sb">
-              <div class="box-price">
-                <p class="current-price">6 700 руб</p>
-                <p class="exchange-price">5 800 руб с обменом</p>
-              </div>
-              <a href="javascript:void();" class="add-to-cart flex-center">
-                <p class="title">В корзину</p>
-                <div class="icon-box flex-center"><i class="icon cart"></i></div>
-              </a>
-            </div>
-
-            <div class="parametrs-akb">
-
-              <div class="item">
-                <p class="title">Емкость</p>
-                <div class="line"></div>
-                <p class="value">220 А/ч</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Пусковой ток</p>
-                <div class="line"></div>
-                <p class="value">1400 А</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Полярность</p>
-                <div class="line"></div>
-                <p class="value">Прямая [+-]</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Габариты</p>
-                <div class="line"></div>
-                <p class="value">518 х 276 х 242 мм</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- Товар -->
-          <div class="goods-item">
-            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
-            <p class="category-title">Аккумулятор автомобильный</p>
-            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
-            <div class="bottom-card flex-Gcenter-sb">
-              <div class="box-price">
-                <p class="current-price">6 700 руб</p>
-                <p class="exchange-price">5 800 руб с обменом</p>
-              </div>
-              <a href="javascript:void();" class="add-to-cart flex-center">
-                <p class="title">В корзину</p>
-                <div class="icon-box flex-center"><i class="icon cart"></i></div>
-              </a>
-            </div>
-
-            <div class="parametrs-akb">
-
-              <div class="item">
-                <p class="title">Емкость</p>
-                <div class="line"></div>
-                <p class="value">220 А/ч</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Пусковой ток</p>
-                <div class="line"></div>
-                <p class="value">1400 А</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Полярность</p>
-                <div class="line"></div>
-                <p class="value">Прямая [+-]</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Габариты</p>
-                <div class="line"></div>
-                <p class="value">518 х 276 х 242 мм</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- Товар -->
-          <div class="goods-item">
-            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
-            <p class="category-title">Аккумулятор автомобильный</p>
-            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
-            <div class="bottom-card flex-Gcenter-sb">
-              <div class="box-price">
-                <p class="current-price">6 700 руб</p>
-                <p class="exchange-price">5 800 руб с обменом</p>
-              </div>
-              <a href="javascript:void();" class="add-to-cart flex-center">
-                <p class="title">В корзину</p>
-                <div class="icon-box flex-center"><i class="icon cart"></i></div>
-              </a>
-            </div>
-
-            <div class="parametrs-akb">
-
-              <div class="item">
-                <p class="title">Емкость</p>
-                <div class="line"></div>
-                <p class="value">220 А/ч</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Пусковой ток</p>
-                <div class="line"></div>
-                <p class="value">1400 А</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Полярность</p>
-                <div class="line"></div>
-                <p class="value">Прямая [+-]</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Габариты</p>
-                <div class="line"></div>
-                <p class="value">518 х 276 х 242 мм</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- Товар -->
-          <div class="goods-item">
-            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
-            <p class="category-title">Аккумулятор автомобильный</p>
-            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
-            <div class="bottom-card flex-Gcenter-sb">
-              <div class="box-price">
-                <p class="current-price">6 700 руб</p>
-                <p class="exchange-price">5 800 руб с обменом</p>
-              </div>
-              <a href="javascript:void();" class="add-to-cart flex-center">
-                <p class="title">В корзину</p>
-                <div class="icon-box flex-center"><i class="icon cart"></i></div>
-              </a>
-            </div>
-
-            <div class="parametrs-akb">
-
-              <div class="item">
-                <p class="title">Емкость</p>
-                <div class="line"></div>
-                <p class="value">220 А/ч</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Пусковой ток</p>
-                <div class="line"></div>
-                <p class="value">1400 А</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Полярность</p>
-                <div class="line"></div>
-                <p class="value">Прямая [+-]</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Габариты</p>
-                <div class="line"></div>
-                <p class="value">518 х 276 х 242 мм</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- Товар -->
-          <div class="goods-item">
-            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
-            <p class="category-title">Аккумулятор автомобильный</p>
-            <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
-            <div class="bottom-card flex-Gcenter-sb">
-              <div class="box-price">
-                <p class="current-price">6 700 руб</p>
-                <p class="exchange-price">5 800 руб с обменом</p>
-              </div>
-              <a href="javascript:void();" class="add-to-cart flex-center">
-                <p class="title">В корзину</p>
-                <div class="icon-box flex-center"><i class="icon cart"></i></div>
-              </a>
-            </div>
-
-            <div class="parametrs-akb">
-
-              <div class="item">
-                <p class="title">Емкость</p>
-                <div class="line"></div>
-                <p class="value">220 А/ч</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Пусковой ток</p>
-                <div class="line"></div>
-                <p class="value">1400 А</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Полярность</p>
-                <div class="line"></div>
-                <p class="value">Прямая [+-]</p>
-              </div>
-
-              <div class="item">
-                <p class="title">Габариты</p>
-                <div class="line"></div>
-                <p class="value">518 х 276 х 242 мм</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- Товар -->
-          <div class="goods-item">
-            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-1.png" alt="goods"></a>
+            <a href="javascript:void();" class="flex-center"><img class="photo-goods" src="@/assets/img/goods-3.png" alt="goods"></a>
             <p class="category-title">Аккумулятор автомобильный</p>
             <a href="javascript:void();" class="name-product">Аккумулятор Energizer EA70L3 12В 42Ач 540CCA</a>
             <div class="bottom-card flex-Gcenter-sb">
@@ -595,10 +597,40 @@
 
         </div>
 
+        <div class="pagination-container">
+          <a href="#" class="link btn-flat disabled"><i class="icon arrowLeft"></i><p>Назад</p></a>
+          <a href="#" class="link active"><p>1</p></a>
+          <a href="#" class="link"><p>2</p></a>
+          <a href="#" class="link"><p>3</p></a>
+          <a href="#" class="link"><p>4</p></a>
+          <a href="#" class="link"><p>5</p></a>
+          <a href="#" class="link"><p>...</p></a>
+          <a href="#" class="link"><p>25</p></a>
+          <a href="#" class="link" ><p>Далее</p><i class="icon arrowRight"></i></a>
+        </div>
+
       </div>
 
 
 
+    </div>
+
+
+    <!-- Modal Structure -->
+    <div id="mobile-modal-filter" class="modal">
+      <div class="modal-content filter-search">
+
+        <!-- Шапка -->
+        <div class="header flex-Gcenter-sb">
+          <p class="title">Параметры аккумулятора</p>
+          <i class="icon close modal-close"></i>
+        </div>
+
+        <FilterAkbSearch/>
+
+        <a href="#" class="btn-find-count flex-center">Найдено 7 акб</a>
+
+      </div>
     </div>
 
   </div>
@@ -615,6 +647,9 @@ export default {
     // dropdown (materialize UI)
     $('.dropdown-trigger').dropdown();
 
+    $('.modal').modal();
+
+
     // Выбор Сортировки
     $('.sort-dropdown-trigger .dropdown-content a').click(function() {
       let $temp = $(this).text();
@@ -626,6 +661,34 @@ export default {
       $('.sort-dropdown-trigger .dropdown-content a').removeClass('active');
       $(this).addClass('active');
     })
+
+    $(function() {
+
+      let goodGrid = $('.goods-grid .goods-item');
+      console.log( goodGrid.length );
+
+      if ( goodGrid.length < 4 ) {
+        $('.goods-grid').addClass('less-than');
+      } else {
+        $('.goods-grid').removeClass('less-than');
+      }
+
+    })
+
+
+
+
+    $('.open-filter-mobile').click(function() {
+      $.ajax({
+        type: "POST",
+        url: 'Home',
+        success: function(data) {
+          $('#assend').html(data);
+        }
+      });
+    });
+
+
   }
 }
 </script>
@@ -684,6 +747,10 @@ export default {
         color: var(--color-gray);
 
       }
+    }
+
+    .large-hiden {
+      display: none;
     }
   }
 
@@ -751,6 +818,24 @@ export default {
           }
         }
       }
+    }
+  }
+
+  .item-category-akb {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: var(--color-red);
+    height: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+    i {
+      background-color: #fff;
+      margin-left: 15px;
+      font-size: 19px;
     }
   }
 
