@@ -43,6 +43,12 @@
           <div class="title flex-Vcenter"><i class="icon rowLightLeft"></i>Производитель</div>
 
           <div class="group">
+            <div class="link">
+              <router-link to="/Catalog" class="modal-close" exact>Все аккумуляторы</router-link>
+            </div>
+          </div>
+
+          <div class="group">
             <p class="letter">A</p>
             <div class="link">
               <a href="#">AFA</a>

@@ -146,3 +146,15 @@ i.icon.Sort-up {
 i.icon.Sort-date {
     mask-image: url('Sort-date.svg')
 }
+
+i.icon.check {
+    mask-image: url('check.svg')
+}
+
+i.icon.no-check {
+    mask-image: url('no-check.svg')
+}
+
+i.icon.question {
+    mask-image: url('question.svg')
+}

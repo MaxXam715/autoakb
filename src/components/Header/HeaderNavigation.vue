@@ -2,20 +2,16 @@
 
   <nav class="desktop-nav">
     <div class="container flex-Vcenter">
+
       <a href="#modal-open_catalog" class="open-catalog flex-Vcenter waves-effect waves-light modal-trigger">
         <i class="icon menu"></i>
         <span>Каталог товаров</span>
         <i class="icon arrowDown"></i>
       </a>
 
-      <div class="link-nav flex-Vcenter waves-effect waves-light dropdown-trigger" data-target="dropdown-selection">Подбор АКБ<i class="icon arrowDown"></i>
-        <!-- Выпадающий список -->
-        <ul id='dropdown-selection' class='dropdown-content'>
-          <li><a class="link" href="javascript:void(0);">Подбор <span>по параметрам АКБ</span></a></li>
-          <li><a class="link" href="javascript:void(0);">Подбор <span>по марке авто</span></a></li>
-          <li><a class="link" href="javascript:void(0);">Подбор <span>по марке мото</span></a></li>
-        </ul>
-      </div>
+      <router-link to="/Catalog" class="link-nav flex-Vcenter waves-effect waves-light" exact>Подбор АКБ</router-link>
+
+
       <div class="link-nav flex-Vcenter waves-effect waves-light dropdown-trigger" data-target="dropdown-service">Услуги<i class="icon arrowDown"></i>
         <!-- Выпадающий список -->
         <ul id='dropdown-service' class='dropdown-content'>

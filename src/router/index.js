@@ -14,9 +14,16 @@ const routes = [
   {
     path: '/catalog',
     name: 'Catalog',
-    meta: {title: 'Каталог'},
+    meta: {title: 'Каталог товаров'},
 
     component:()=>import(/* webpackChunkName: "catalog" */ '../views/Catalog.vue')
+  },
+  {
+    path: '/product',
+    name: 'product',
+    meta: {title: 'Товар'},
+
+    component:()=>import(/* webpackChunkName: "catalog" */ '../views/product.vue')
   }
 ]
 

@@ -184,6 +184,10 @@ input,
 select,
 button {
   font-family: 'bibi';
+
+  &::placeholder {
+    color: var(--color-gray);
+  }
 }
 
 [type="checkbox"].filled-in:checked+span:not(.lever):after {

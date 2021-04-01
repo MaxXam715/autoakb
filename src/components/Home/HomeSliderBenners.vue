@@ -14,7 +14,7 @@
 
     <!-- Баннеры справа -->
     <div class="banners">
-      <router-link to="/Catalog" exact><img class="banner-2" src="@/assets/img/banners/banner-1.png" alt=""></router-link>
+      <a href="#"><img class="banner-2" src="@/assets/img/banners/banner-1.png" alt=""></a>
       <a href="#"><img class="banner-3" src="@/assets/img/banners/banner-2.png" alt=""></a>
     </div>
 
