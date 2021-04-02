@@ -41,6 +41,7 @@ export default {
   position: fixed;
   right: 40px;
   bottom: 90px;
+  bottom: calc(90px + env(safe-area-inset-bottom));
   z-index: 50;
   opacity: 0;
   visibility: hidden;

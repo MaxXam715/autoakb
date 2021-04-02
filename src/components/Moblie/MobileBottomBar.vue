@@ -17,7 +17,7 @@
       <p class="title">Поиск</p>
     </a>
 
-    <a href="#" class="nav-bottom-link waves-effect">
+    <a href="Catalog" class="nav-bottom-link waves-effect">
       <i class="icon akb"></i>
       <p class="title">Подбор</p>
     </a>

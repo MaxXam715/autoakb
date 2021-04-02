@@ -862,7 +862,6 @@ export default {
     $(function() {
 
       let goodGrid = $('.goods-grid .goods-item');
-      console.log( goodGrid.length );
 
       if ( goodGrid.length < 4 ) {
         $('.goods-grid').addClass('less-than');

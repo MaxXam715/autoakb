@@ -2,7 +2,7 @@
 
   <!--  Мобильное меню ТОП-бар  -->
   <div class="mobile-top_bar flex-Gcenter-sb animate__animated">
-    <img class="logo-mob" src="@/assets/img/logo.svg" alt="logo">
+    <a href="/"><img class="logo-mob" src="@/assets/img/logo.svg" alt="logo"></a>
     <div class="button-menu-mob flex-center sidenav-trigger waves-effect" data-target="MobileNav-modal-toggle"><i class="icon mobBurger"></i></div>
   </div>
   <!--  Конец - Мобильное меню ТОП-бар  -->
@@ -31,6 +31,10 @@ export default {
   box-shadow: 0px 0.9px 30px rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
   z-index: 10;
+
+  a {
+    line-height: 0;
+  }
 
   &.show-toggle {
     top: -70px;

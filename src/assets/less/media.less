@@ -27,10 +27,6 @@
     font-size: 1.3vw !important;
   }
 
-  .slide-filter-08945 .car-brand {
-    grid-template-columns: repeat(6, 1fr) !important;
-  }
-
   .filter-akb .parameters .filter-search .checkbox-parametrs {
     grid-template-columns: 1fr 1fr !important;
     padding-bottom: 30px;
@@ -93,10 +89,6 @@
 
   .modal.product-catalog .grid-navigation .list-categories .group .list p {
     padding: 15px 30px;
-  }
-
-  .slide-filter-08945 .car-brand {
-    grid-template-columns: repeat(5, 1fr) !important;
   }
 
   .home-About-Us .years-old {
@@ -373,6 +365,21 @@
       .large-hiden {
         display: flex !important;
       }
+    }
+  }
+
+
+  .product-card .product-content .description .leave-review {
+    display: none;
+  }
+
+  .product-card .product-content .description .btn-buy {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+
+    a {
+      margin-bottom: 0 !important;
     }
   }
 
@@ -747,6 +754,7 @@
           line-height: normal !important;
 
           .article {
+            display: none;
             font-size: 14px !important;
             font-weight: 400;
           }
@@ -755,22 +763,18 @@
         .price-box,
         .btn-buy {
           flex-wrap: wrap;
-        }
+          border: none !important;
+          padding: 0 !important;
+          margin: 0 !important;
 
-        .price-box {
-          .left-col {
-            border-right: none !important;
-            border-bottom: 1px solid var(--color-LightBlue);
-            width: 100%;
-            padding-bottom: 20px;
-
-            .price {
-              font-size: 30px !important;
-            }
+          .add-to-cart {
+            position: fixed;
+            left: 15px;
+            bottom: calc(70px + env(safe-area-inset-bottom));
+            z-index: 5;
+            width: calc(100% - 30px);
           }
-        }
 
-        .btn-buy {
           a {
             padding: 15px 0;
             width: 100%;
@@ -778,6 +782,38 @@
             margin: 0 !important;
             margin-bottom: 10px !important;
           }
+        }
+
+        .price-box {
+
+          .left-col {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            border-right: none !important;
+            width: 100%;
+            padding: 0 !important;
+            margin: 0 !important;
+
+            .price {
+              font-size: 25px !important;
+            }
+            .exchange {
+              font-size: 15px !important;
+            }
+          }
+
+          .right-col {
+            display: none;
+          }
+        }
+
+        .buy-one-click {
+          display: none;
+        }
+
+        .leave-review {
+          display: none;
         }
       }
     }
@@ -800,6 +836,65 @@
 
           .info {
             font-size: 13px !important;
+          }
+        }
+      }
+    }
+
+    .parametrs-content {
+      grid-template-columns: 1fr !important;
+
+      .left-col {
+        .tabs-box {
+          grid-template-columns: 1fr !important;
+        }
+
+        .tabel-grid {
+          .row-container {
+            .title {
+              font-size: 14px !important;
+            }
+            .parametrs {
+              font-size: 13px !important;
+            }
+          }
+
+          .show-all {
+            font-size: 14px !important;
+            padding: 10px 0 !important;
+          }
+        }
+      }
+    }
+
+    .parametrs-content .left-col .tabs-box-content .tab-container .card-container {
+      grid-template-columns: 1fr !important;
+    }
+
+    .parametrs-content .left-col .tabs-box-content .tab-container.select-city .select-box {
+      grid-template-columns: 1fr !important;
+    }
+
+    .parametrs-content .item-card iframe {
+      display: none;
+    }
+  }
+
+  #mobile-modal-category {
+
+
+    .slide-filter-08945 {
+      .car-brand,
+      .list-model {
+        height: inherit !important;
+        overflow: auto !important;
+      }
+
+      .list-parametr {
+        .list-model {
+          .item-list {
+            padding-left: 10px !important;
+            margin-left: 0 !important;
           }
         }
       }
@@ -1004,20 +1099,20 @@
     grid-template-columns: 1fr 1fr;
 
     .goods-item {
-      padding: 20px 15px;
+      padding: 10px;
 
       .photo-goods {
-        max-height: 200px;
-        padding: 0 10px;
+        max-height: 150px;
+        padding: 0 20px;
       }
 
       .category-title {
-        font-size: 12px;
+        font-size: 10px;
         margin-bottom: 7px;
       }
 
       .name-product {
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 600;
       }
 
@@ -1026,16 +1121,20 @@
       }
 
       .exchange-price {
+        display: none;
         font-size: 12px !important;
       }
 
       .bottom-card {
-        flex-direction: column !important;
-        margin-top: 10px !important;
+        margin-top: 20px !important;
 
         .add-to-cart {
+          min-width: initial;
           margin-left: auto !important;
-          margin-top: 10px !important;
+
+          .title {
+            display: none;
+          }
         }
       }
     }

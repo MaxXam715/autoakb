@@ -722,8 +722,7 @@ export default {
 
   .car-brand {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat( auto-fill, 88px);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-column-gap: 5px;
     grid-row-gap: 15px;
     transition: all 0.2s;
@@ -862,6 +861,52 @@ export default {
       color: #000;
     }
   }
+}
+
+
+#mobile-modal-category {
+  top: 0 !important;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: initial;
+  background-color: #fff;
+
+  .content {
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .slide-filter-08945 {
+
+    .step-filter {
+      .header {
+        i {
+          font-size: 20px;
+          background-color: var(--color-gray);
+        }
+      }
+    }
+
+    .car-brand {
+      height: inherit;
+      overflow-x: inherit;
+      overflow-y: inherit;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+    }
+
+    .list-parametr {
+      .list-model {
+        height: inherit;
+
+        .item-list {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+
 }
 
 </style>

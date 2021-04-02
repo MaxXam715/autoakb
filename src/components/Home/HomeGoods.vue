@@ -243,7 +243,6 @@ export default {
       let count = $(this).index();
       $('.home-goods-slide .tabs-max').removeClass('active');
       $('.home-goods-slide .tabs-max').eq(count).addClass('active');
-
     });
 
 

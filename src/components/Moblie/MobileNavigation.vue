@@ -29,7 +29,7 @@
         <a href="" class="link">Прайс</a>
         <a href="" class="link">Возврат товара</a>
         <div class="line"></div>
-        <a href="" class="link">Подбор АКб</a>
+        <a href="Catalog" class="link">Подбор АКб</a>
         <a href="" class="link">Услуги</a>
         <a href="" class="link">Доставка и оплата</a>
         <a href="" class="link">Гарантии</a>

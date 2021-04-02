@@ -158,3 +158,7 @@ i.icon.no-check {
 i.icon.question {
     mask-image: url('question.svg')
 }
+
+i.icon.clock {
+    mask-image: url('clock.svg')
+}
