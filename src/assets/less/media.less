@@ -50,33 +50,28 @@
     line-height: normal !important;
   }
 
+  .goods-grid {
+    .goods-item {
+      .bottom-card {
+        margin-top: 20px !important;
+
+        .add-to-cart {
+          min-width: initial;
+          margin-left: auto !important;
+
+          .title {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 @media (max-width: 1538px) {
   .container {
     max-width: 1238px;
-  }
-
-  .number-or-adress {
-    display: block;
-  }
-
-  header .index-info .container {
-    .contact {
-      margin-bottom: 5px;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-
-      i {
-        font-size: 20px;
-      }
-
-      .low-text {
-        display: none;
-      }
-    }
   }
 
   .acceptance-batteries {
@@ -107,12 +102,34 @@
     width: 90% !important;
     grid-template-columns: 1fr 360px;
   }
+
+  .number-or-adress {
+    display: block;
+  }
+
+  header .index-info .container {
+    .contact {
+      margin-bottom: 5px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      i {
+        font-size: 20px;
+      }
+
+      .low-text {
+        display: none;
+      }
+    }
+  }
 }
 
 // Ноутбуки
 @media (max-width: 1338px) {
   .container {
-    max-width: 1138px;
+    max-width: 1258px;
   }
 
   .top-bar .right-col.callback {
@@ -380,6 +397,35 @@
 
     a {
       margin-bottom: 0 !important;
+    }
+  }
+
+  .goods-grid {
+    grid-template-columns: repeat(3, 1fr);
+
+    &.goods-long-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .goods-item {
+      position: initial !important;
+      max-width: none !important;
+
+      &:hover {
+        box-shadow: none !important;
+      }
+
+      .parametrs-akb {
+        display: none !important;
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  }
+
+  .index-news {
+    .content {
+      grid-template-columns: 1fr !important;
     }
   }
 
@@ -670,23 +716,6 @@
     }
   }
 
-  .goods-grid {
-    .goods-item {
-      position: initial !important;
-      max-width: none !important;
-
-      &:hover {
-        box-shadow: none !important;
-      }
-
-      .parametrs-akb {
-        display: none !important;
-        opacity: 0;
-        visibility: hidden;
-      }
-    }
-  }
-
   .modal {
     .filter-search {
 
@@ -901,6 +930,10 @@
     }
   }
 
+  .index-news .content .left-col {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
 }
 
 @media (max-width: 800px) {
@@ -1098,6 +1131,10 @@
   .goods-grid {
     grid-template-columns: 1fr 1fr;
 
+    &.goods-long-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
     .goods-item {
       padding: 10px;
 
@@ -1123,19 +1160,6 @@
       .exchange-price {
         display: none;
         font-size: 12px !important;
-      }
-
-      .bottom-card {
-        margin-top: 20px !important;
-
-        .add-to-cart {
-          min-width: initial;
-          margin-left: auto !important;
-
-          .title {
-            display: none;
-          }
-        }
       }
     }
   }
@@ -1169,6 +1193,10 @@
       width: 50px;
       height: 50px;
     }
+  }
+
+  .pagination-container {
+    justify-content: center;
   }
 }
 
@@ -1247,6 +1275,11 @@
       font-size: 14px !important;
     }
   }
+
+  .index-news .content .left-col {
+    grid-template-columns: 1fr !important;
+  }
+
 
 }
 

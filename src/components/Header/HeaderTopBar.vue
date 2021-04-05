@@ -25,7 +25,7 @@
 
       <!-- Сервисное меню -->
       <div class="service-menu flex-Vcenter">
-        <a href="javascript:void(0);" class="link">Новости</a>
+        <a href="/news" class="link">Новости</a>
         <a href="javascript:void(0);" class="link">Акции и скидки</a>
         <a href="javascript:void(0);" class="link">Прайс</a>
         <a href="javascript:void(0);" class="link">Возврат товара</a>

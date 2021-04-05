@@ -18,7 +18,7 @@
         <!-- Лидеры продаж -->
         <div class="tabs-max active">
 
-          <div class="goods-grid">
+          <div class="goods-grid goods-long-grid">
 
             <!-- Товар -->
             <div class="goods-item">
@@ -251,6 +251,7 @@ export default {
       $('.home-goods .link-tab').removeClass('active')
       $(this).addClass('active');
     })
+
   }
 }
 </script>

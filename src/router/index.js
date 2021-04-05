@@ -23,7 +23,14 @@ const routes = [
     name: 'product',
     meta: {title: 'Товар'},
 
-    component:()=>import(/* webpackChunkName: "catalog" */ '../views/product.vue')
+    component:()=>import(/* webpackChunkName: "Product-page" */ '../views/Product-page.vue')
+  },
+  {
+    path: '/news',
+    name: 'news',
+    meta: {title: 'Новости'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/News.vue')
   }
 ]
 
