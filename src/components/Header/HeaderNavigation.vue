@@ -21,9 +21,8 @@
           <li><a class="link" href="/returnGoods">Возврат и обмен</a></li>
         </ul>
       </div>
-      <!--        <router-link :to="{name:'Catalog'}" >Home</router-link>-->
-      <a class="link-nav flex-Vcenter waves-effect waves-light">Доставка и оплата</a>
-      <a class="link-nav flex-Vcenter waves-effect waves-light" href="javascript:void(0);">Гарантии</a>
+      <a class="link-nav flex-Vcenter waves-effect waves-light" href="/DeliveryPayment">Доставка и оплата</a>
+      <a class="link-nav flex-Vcenter waves-effect waves-light" href="/guarantees">Гарантии</a>
       <a class="link-nav flex-Vcenter waves-effect waves-light" href="javascript:void(0);">Оптом</a>
       <a class="link-nav flex-Vcenter waves-effect waves-light" href="javascript:void(0);">Контакты</a>
       <a class="acceptance-batteries flex-center waves-effect waves-light modal-trigger" href="#modal-bu"><span>Прием Б/У АКБ</span></a>

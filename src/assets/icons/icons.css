@@ -166,3 +166,15 @@ i.icon.clock {
 i.icon.eye {
     mask-image: url('eye.svg')
 }
+
+i.icon.elevator {
+    mask-image: url('elevator.svg')
+}
+
+i.icon.ladder {
+    mask-image: url('ladder.svg')
+}
+
+i.icon.alert {
+    mask-image: url('alert.svg')
+}

@@ -128,7 +128,8 @@
 
 // Ноутбуки
 @media (max-width: 1338px) {
-  .container {
+  .container,
+  .container-midle {
     max-width: 1258px;
   }
 
@@ -477,6 +478,10 @@
   }
 
   .return-goods .container-midle .container-rules {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .delivery-Payment-Payment .payment-methods .grid-card-methods {
     grid-template-columns: 1fr 1fr !important;
   }
 
@@ -938,6 +943,51 @@
     grid-template-columns: 1fr 1fr !important;
   }
 
+  .delivery-Payment .container-midle .content .pricing-plans > .grid-plans {
+    grid-template-columns: 1fr !important;
+  }
+
+  .delivery-Payment .container-midle .content .header {
+    grid-template-columns: 1fr !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .left-col {
+      .title {
+        font-size: 25px !important;
+      }
+    }
+  }
+
+  .delivery-Payment .container-midle .content .delivery-map .any-delivery {
+    grid-template-columns: 1fr !important;
+  }
+
+  .delivery-in-Russia .content {
+    grid-template-columns: 1fr !important;
+  }
+
+  .delivery-in-Russia .content .right-col,
+  .delivery-Payment-Payment .content .header .right-col img {
+    display: none;
+  }
+
+  .delivery-Payment .example-delivery .example-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .delivery-Payment .example-delivery .example-grid .right-col > .title {
+    font-size: 25px !important;
+  }
+
+  .delivery-Payment .sales-products-samples .grid-products-samples {
+    grid-template-columns: 1fr !important;
+  }
+
+  .delivery-Payment-Payment .payment-methods .grid-card-methods {
+    grid-template-columns: 1fr !important;
+  }
+
 }
 
 @media (max-width: 800px) {
@@ -1213,6 +1263,10 @@
   .return-goods .container-midle .container-rules {
     grid-template-columns: 1fr !important;
   }
+
+  .delivery-Payment .container-midle .content .delivery-map .any-delivery .right-col {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 // Мобильные устройства
@@ -1295,6 +1349,9 @@
     grid-template-columns: 1fr !important;
   }
 
+  .delivery-in-Russia .content .left-col .couriers-card {
+    grid-template-columns: 1fr !important;
+  }
 
 }
 

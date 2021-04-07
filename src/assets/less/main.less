@@ -8,6 +8,7 @@
   --color-LightBlue: #EDF3FA;
   --color-green: #0CB61D;
   --color-blackOpacity: rgba(0,0,0, 0.1);
+  --background-gradient-black: linear-gradient(90.21deg, #2F343A 0.07%, #101511 99.93%);
 }
 // Конец - Переменные
 
@@ -145,6 +146,13 @@ h6 {
   box-shadow: none !important;
 }
 
+.red-text {
+  color: var(--color-red);
+}
+
+.green-text {
+  color: var(--color-green);
+}
 
 
 // Адаптивный контейнер (Пропорциональное сжатие)
@@ -656,6 +664,40 @@ input:focus {
 }
 
 
+// Заголовок страницы
+
+.header-name-page {
+  margin: 30px 0;
+
+  .title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+  }
+}
+
+
+// Кнопки
+
+.btn-default-red {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 30px;
+  color: var(--color-gray);
+  background-color: var(--color-LightBlue);
+  margin: 0;
+  margin-right: 10px;
+  border: none;
+  box-shadow: none;
+
+  &.active {
+    background-color: var(--color-red);
+    color: #fff;
+  }
+}
+
+
 
 // Хлебные крошки
 
@@ -812,20 +854,6 @@ input:focus {
         }
       }
     }
-  }
-}
-
-
-
-// Заголовок страницы
-
-.header-name-page {
-  margin: 30px 0;
-
-  .title {
-    font-size: 30px;
-    font-weight: 500;
-    color: #000;
   }
 }
 
@@ -1039,4 +1067,101 @@ input:focus {
       }
     }
   }
+}
+
+
+
+// Оповещение
+
+.warning-alert {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 30px;
+  padding: 30px;
+  background-color: rgba(255, 168, 0, 0.2);
+
+  i {
+    font-size: 50px;
+    background-color: #FFA800;
+  }
+
+  .text {
+    font-weight: 500;
+    color: rgba(0,0,0, 0.4);
+  }
+}
+
+
+
+// Таблица
+
+.tabel-grid-akb {
+  .header-tabel {
+    background: var(--background-gradient-black);
+    padding: 15px 30px;
+
+    .title-header {
+      font-weight: 600;
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+
+  .body-tabel {
+
+    &.text-center-child {
+      .row-tabel *:not(.title-row) {
+        text-align: center;
+      }
+    }
+
+    &.nth-1n {
+      .row-tabel {
+        &:nth-child(2n+1) {
+          background-color: var(--color-LightBlue);
+        }
+      }
+    }
+
+    &.nth-2n {
+      .row-tabel {
+        &:nth-child(2n) {
+          background-color: var(--color-LightBlue);
+        }
+      }
+    }
+
+    .row-tabel {
+      padding: 0px 30px;
+
+      &:hover {
+        background-color: var(--color-blackOpacity) !important;
+      }
+
+      p {
+        padding: 15px 0;
+
+        &:nth-child(2) {
+          border-left: 2px solid #fff;
+          border-right: 2px solid #fff;
+        }
+      }
+
+      .title-row {
+        font-weight: 500;
+        font-size: 16px;
+      }
+
+      p:not(.title-row) {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+
 }

@@ -52,6 +52,27 @@ const routes = [
     meta: {title: 'Обмен и возврат товара'},
 
     component:()=>import(/* webpackChunkName: "News" */ '../views/ReturnGoods.vue')
+  },
+  {
+    path: '/DeliveryPayment',
+    name: 'DeliveryPayment',
+    meta: {title: 'Доставка и оплата'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/DeliveryPayment.vue')
+  },
+  {
+    path: '/DeliveryPayment-Payment',
+    name: 'DeliveryPayment-Payment',
+    meta: {title: 'Доставка и оплата'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/DeliveryPayment-Payment.vue')
+  },
+  {
+    path: '/guarantees',
+    name: 'Guarantees',
+    meta: {title: 'Гарантии'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/Guarantees.vue')
   }
 ]
 
