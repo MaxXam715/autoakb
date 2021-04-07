@@ -178,6 +178,12 @@
         <span>Стандартные (Ø19,5/17,9)</span>
       </label>
 
+      <label class="flex-Vcenter">
+        <input type="checkbox" class="filled-in input-batteries">
+        <span>Акции и скидки</span>
+      </label>
+
+
       <p class="clear-form"><i class="icon eraser flex-Vcenter"></i>Очистить фильтр</p>
 
     </div>

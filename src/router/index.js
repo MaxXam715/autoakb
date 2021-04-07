@@ -31,6 +31,27 @@ const routes = [
     meta: {title: 'Новости'},
 
     component:()=>import(/* webpackChunkName: "News" */ '../views/News.vue')
+  },
+  {
+    path: '/news-article',
+    name: 'news-article',
+    meta: {title: 'Новость'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/News-article.vue')
+  },
+  {
+    path: '/price-list',
+    name: 'price-list',
+    meta: {title: 'Прайс лист'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/price-list.vue')
+  },
+  {
+    path: '/returnGoods',
+    name: 'ReturnGoods',
+    meta: {title: 'Обмен и возврат товара'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/ReturnGoods.vue')
   }
 ]
 

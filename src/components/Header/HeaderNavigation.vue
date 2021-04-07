@@ -18,7 +18,7 @@
           <li><a class="link" href="javascript:void(0);">Установка АКБ</a></li>
           <li><a class="link" href="javascript:void(0);">Зарядка АКБ</a></li>
           <li><a class="link" href="javascript:void(0);">Выездная диагностика</a></li>
-          <li><a class="link" href="javascript:void(0);">Возврат и обмен</a></li>
+          <li><a class="link" href="/returnGoods">Возврат и обмен</a></li>
         </ul>
       </div>
       <!--        <router-link :to="{name:'Catalog'}" >Home</router-link>-->

@@ -24,7 +24,7 @@
         <div class="item-article" v-for="newsArticle in newsArticleList">
 
           <!-- Статьи/новости -->
-          <a href="#">
+          <a href="/news-article">
             <div class="photo box-proportion ratio16_9" v-bind:style="{ 'background-image': 'url(' + newsArticle.photo + ')' }">
               <div class="date">
                 <p class="day">{{newsArticle.date.day}}</p>
@@ -33,16 +33,17 @@
               </div>
             </div>
           </a>
+
           <!-- Контент -->
           <div class="text-content">
-            <a href="#" class="title">{{newsArticle.title}}</a>
+            <a href="/news-article" class="title">{{newsArticle.title}}</a>
             <p class="preview-text">{{newsArticle.textPreview}}</p>
             <div class="bottom-card flex-Gcenter-sb">
               <div class="views flex-Vcenter">
                 <i class="icon eye"></i>
                 <p class="count">{{newsArticle.count}}</p>
               </div>
-              <a href="/" class="link flex-Vcenter">Читать полностью <i class="icon arrowRight"></i></a>
+              <a href="/news-article" class="link flex-Vcenter">Читать полностью <i class="icon arrowRight"></i></a>
             </div>
           </div>
 
@@ -52,7 +53,7 @@
 
       <div class="right-col">
 
-        <div class="category">
+        <div class="category-article">
 
           <!-- Заголовок -->
           <div class="head-title-red flex-Vcenter container">
@@ -319,69 +320,6 @@ export default {
     }
 
     .right-col {
-
-      .category {
-
-        .head-title-red {
-          margin-bottom: 20px;
-        }
-
-        .list-category {
-          margin-bottom: 50px;
-
-          a {
-            &:last-child .item {
-              margin-bottom: 0;
-            }
-          }
-
-          .item {
-            position: relative;
-            display: grid;
-            grid-template-columns: auto 1fr auto;
-            grid-gap: 5px;
-            width: 100%;
-            padding: 38px 20px;
-            background-size: cover;
-            color: #fff;
-            margin-bottom: 10px;
-            transition: all 0.2s;
-
-            &:after {
-              content: '';
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              background-color: rgba(0,0,0, 0.7);
-              opacity: 0.3;
-              transition: all 0.2s;
-            }
-
-            &:hover {
-              &:after {
-                background-color: var(--color-red);
-              }
-            }
-
-            > * {
-              position: relative;
-              z-index: 2;
-            }
-
-            .name-cat,
-            .count {
-              font-size: 20px;
-              font-weight: bold;
-            }
-            .line {
-              border-bottom: 1px dashed #fff;
-              margin-bottom: 4px;
-            }
-          }
-        }
-      }
 
       .categoty-item {
         .head-title-red {

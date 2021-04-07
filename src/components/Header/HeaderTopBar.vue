@@ -26,9 +26,9 @@
       <!-- Сервисное меню -->
       <div class="service-menu flex-Vcenter">
         <a href="/news" class="link">Новости</a>
-        <a href="javascript:void(0);" class="link">Акции и скидки</a>
-        <a href="javascript:void(0);" class="link">Прайс</a>
-        <a href="javascript:void(0);" class="link">Возврат товара</a>
+        <a href="/catalog" class="link">Акции и скидки</a>
+        <a href="/price-list" class="link">Прайс</a>
+        <a href="/returnGoods" class="link">Возврат товара</a>
         <a href="javascript:void(0);" class="link hide acceptance-batteries">Прием Б/У АКБ</a>
       </div>
       <!-- Конец - Сервисное меню -->
