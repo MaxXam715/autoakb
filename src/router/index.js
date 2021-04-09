@@ -73,6 +73,13 @@ const routes = [
     meta: {title: 'Гарантии'},
 
     component:()=>import(/* webpackChunkName: "News" */ '../views/Guarantees.vue')
+  },
+  {
+    path: '/wholesale',
+    name: 'Wholesale',
+    meta: {title: 'Оптом'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/Wholesale.vue')
   }
 ]
 
