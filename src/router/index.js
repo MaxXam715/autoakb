@@ -80,6 +80,27 @@ const routes = [
     meta: {title: 'Оптом'},
 
     component:()=>import(/* webpackChunkName: "News" */ '../views/Wholesale.vue')
+  },
+  {
+    path: '/BatteryInstallation',
+    name: 'BatteryInstallation',
+    meta: {title: 'Установка АКБ'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/BatteryInstallation.vue')
+  },
+  {
+    path: '/ChargingBattery',
+    name: 'ChargingBattery',
+    meta: {title: 'Зарядка АКБ'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/ChargingBattery.vue')
+  },
+  {
+    path: '/DiagnosticsService',
+    name: 'DiagnosticsService',
+    meta: {title: 'Диагностика'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/DiagnosticsService.vue')
   }
 ]
 

@@ -15,9 +15,9 @@
       <div class="link-nav flex-Vcenter waves-effect waves-light dropdown-trigger" data-target="dropdown-service">Услуги<i class="icon arrowDown"></i>
         <!-- Выпадающий список -->
         <ul id='dropdown-service' class='dropdown-content'>
-          <li><a class="link" href="javascript:void(0);">Установка АКБ</a></li>
-          <li><a class="link" href="javascript:void(0);">Зарядка АКБ</a></li>
-          <li><a class="link" href="javascript:void(0);">Выездная диагностика</a></li>
+          <li><a class="link" href="/BatteryInstallation">Установка АКБ</a></li>
+          <li><a class="link" href="/ChargingBattery">Зарядка АКБ</a></li>
+          <li><a class="link" href="/DiagnosticsService">Выездная диагностика</a></li>
           <li><a class="link" href="/returnGoods">Возврат и обмен</a></li>
         </ul>
       </div>

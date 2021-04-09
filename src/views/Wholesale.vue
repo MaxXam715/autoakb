@@ -92,7 +92,7 @@
 
               <div class="item">
                 <div class="circle"></div>
-                <p class="description text-red"> +7 (812) 401-63-62   |   info@spb.autoakb.ru</p>
+                <div class="description text-red"><a href="tel:+7 (812) 401-63-62">+7 (812) 401-63-62</a> | <a href="mailto:info@spb.autoakb.ru">info@spb.autoakb.ru</a></div>
               </div>
 
             </div>
@@ -250,6 +250,10 @@ export default {
                 font-size: 16px;
                 color: #30334B;
                 padding-bottom: 30px;
+
+                a {
+                  color: var(--color-red) !important;
+                }
 
                 &.text-red {
                   color: var(--color-red);
