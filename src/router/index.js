@@ -101,6 +101,20 @@ const routes = [
     meta: {title: 'Диагностика'},
 
     component:()=>import(/* webpackChunkName: "News" */ '../views/DiagnosticsService.vue')
+  },
+  {
+    path: '/Contacts',
+    name: 'Contacts',
+    meta: {title: 'Контакты'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/Contacts.vue')
+  },
+  {
+    path: '/MakingOrder',
+    name: 'MakingOrder',
+    meta: {title: 'Оформление заказа'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/MakingOrder.vue')
   }
 ]
 

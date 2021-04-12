@@ -178,3 +178,11 @@ i.icon.ladder {
 i.icon.alert {
     mask-image: url('alert.svg')
 }
+
+i.icon.instagramColor {
+    mask-image: url('instagramColor.svg')
+}
+
+i.icon.whatsAppColor {
+    mask-image: url('whatsAppColor.svg')
+}

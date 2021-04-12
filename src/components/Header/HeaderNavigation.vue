@@ -24,7 +24,7 @@
       <a class="link-nav flex-Vcenter waves-effect waves-light" href="/DeliveryPayment">Доставка и оплата</a>
       <a class="link-nav flex-Vcenter waves-effect waves-light" href="/guarantees">Гарантии</a>
       <a class="link-nav flex-Vcenter waves-effect waves-light" href="/wholesale">Оптом</a>
-      <a class="link-nav flex-Vcenter waves-effect waves-light" href="javascript:void(0);">Контакты</a>
+      <a class="link-nav flex-Vcenter waves-effect waves-light" href="/Contacts">Контакты</a>
       <a class="acceptance-batteries flex-center waves-effect waves-light modal-trigger" href="#modal-bu"><span>Прием Б/У АКБ</span></a>
     </div>
 

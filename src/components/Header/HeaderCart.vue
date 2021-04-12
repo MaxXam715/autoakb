@@ -188,7 +188,7 @@
           <p class="title">Итоговая стоимость</p>
           <p class="price">13 070 руб.</p>
         </div>
-        <a href="#" class="flex-center go-shopping-cart waves-effect waves-light">Оформить заказ</a>
+        <a href="/MakingOrder" class="flex-center go-shopping-cart waves-effect waves-light">Оформить заказ</a>
       </div>
 
 

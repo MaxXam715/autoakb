@@ -673,6 +673,10 @@ input:focus {
     font-size: 30px;
     font-weight: 500;
     color: #000;
+
+    span {
+      color: var(--color-red);
+    }
   }
 }
 
@@ -691,6 +695,7 @@ input:focus {
   border: none;
   box-shadow: none;
   cursor: pointer;
+  transition: all 0.2s;
 
   &.active {
     background-color: var(--color-red);
