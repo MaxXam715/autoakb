@@ -6,6 +6,7 @@
     <!-- Хлебные крошки -->
     <div class="bread-crumbs">
       <a href="/" class="link">Главная</a>
+      <a href="/" class="link">Корзина</a>
     </div>
 
     <div class="container-midle">
@@ -351,7 +352,7 @@
               <p class="title">Итоговая стоимость</p>
               <p class="price">13 070 руб.</p>
             </div>
-            <a href="/MakingOrder" class="flex-center go-shopping-cart waves-effect waves-light">Оформить заказ</a>
+            <a href="/FinalOrderProcessing" class="flex-center go-shopping-cart waves-effect waves-light">Оформить заказ</a>
           </div>
 
 

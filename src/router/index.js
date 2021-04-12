@@ -115,6 +115,13 @@ const routes = [
     meta: {title: 'Оформление заказа'},
 
     component:()=>import(/* webpackChunkName: "News" */ '../views/MakingOrder.vue')
+  },
+  {
+    path: '/FinalOrderProcessing',
+    name: 'FinalOrderProcessing',
+    meta: {title: 'Оформление заказа'},
+
+    component:()=>import(/* webpackChunkName: "News" */ '../views/FinalOrderProcessing.vue')
   }
 ]
 

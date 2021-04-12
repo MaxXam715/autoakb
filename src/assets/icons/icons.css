@@ -186,3 +186,31 @@ i.icon.instagramColor {
 i.icon.whatsAppColor {
     mask-image: url('whatsAppColor.svg')
 }
+
+i.icon.cardPackage {
+    mask-image: url('cardPackage.svg')
+}
+
+i.icon.carDelivery {
+    mask-image: url('carDelivery.svg')
+}
+
+i.icon.simpleUser {
+    mask-image: url('simpleUser.svg')
+}
+
+i.icon.LegalEntity {
+    mask-image: url('LegalEntity.svg')
+}
+
+i.icon.payCard {
+    mask-image: url('payCard.svg')
+}
+
+i.icon.payCard2 {
+    mask-image: url('payCard2.svg')
+}
+
+i.icon.payMoney {
+    mask-image: url('payMoney.svg')
+}
