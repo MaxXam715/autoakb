@@ -34,7 +34,7 @@
                 <div class="grid-checkbox-label">
 
                   <label class="active">
-                    <div class="contain">
+                    <div class="contain pick-up_service_btn">
                       <i class="icon cardPackage"></i>
                       <div class="select-tab">
                         <p class="title">Самовывоз</p>
@@ -46,7 +46,7 @@
                   </label>
 
                   <label>
-                    <div class="contain">
+                    <div class="contain delivery-btn">
                       <i class="icon carDelivery"></i>
                       <div class="select-tab">
                         <p class="title">Доставка</p>
@@ -64,7 +64,7 @@
               </div>
 
               <!-- 2. Выбрать адрес магазина -->
-              <div class="item-step">
+              <div class="item-step pick-up_service_tab">
 
                 <!-- Заголовок -->
                 <div class="head-title-red flex-Vcenter marginB50">
@@ -155,6 +155,72 @@
 
               </div>
 
+              <!-- 2/2. Выбрать адрес магазина - если выбрана доставка! -->
+              <div class="item-step delivery-tab">
+
+                <!-- Заголовок -->
+                <div class="head-title-red flex-Vcenter marginB50">
+                  <p class="title">2. Адрес доставки</p>
+                  <div class="line"></div>
+                </div>
+
+                <div class="form-grid">
+
+                  <div class="grid-two-col">
+
+                    <div class="item-input">
+                      <label for="last_name">Область: <span>*</span></label>
+                      <input id="last_name" type="text" class="validate">
+                    </div>
+
+                    <div class="item-input">
+                      <label for="last_name">Город: <span>*</span></label>
+                      <input id="last_name" type="text" class="validate">
+                    </div>
+
+                  </div>
+
+                  <div class="grid-two-col">
+
+                    <div class="item-input">
+                      <label for="last_name">Улица: <span>*</span></label>
+                      <input id="last_name" type="text" class="validate">
+                    </div>
+
+                    <div class="item-input">
+                      <label for="last_name">Дом/корпус: <span>*</span></label>
+                      <input id="last_name" type="text" class="validate">
+                    </div>
+
+                  </div>
+
+                  <div class="grid-two-col">
+
+                    <div class="item-input">
+                      <label for="last_name">Квартира: <span>*</span></label>
+                      <input id="last_name" type="text" class="validate">
+                    </div>
+
+                  </div>
+
+                  <div class="grid-two-col">
+
+                    <div class="item-input">
+                      <label for="last_name">Дата доставки: <span>*</span></label>
+                      <input id="last_name" type="text" class="validate">
+                    </div>
+
+                    <div class="item-input">
+                      <label for="last_name">Время доставки: <span>*</span></label>
+                      <input id="last_name" type="text" class="validate">
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
               <!-- 3. Тип плательщика -->
               <div class="item-step">
 
@@ -196,7 +262,7 @@
 
               </div>
 
-              <!-- 4. Тип плательщика -->
+              <!-- 4. Оплата -->
               <div class="item-step">
 
                 <!-- Заголовок -->
@@ -207,7 +273,7 @@
 
                 <div class="grid-checkbox-label">
 
-                  <label class="active">
+                  <label class="active method-pay pay_1">
                     <div class="contain">
                       <i class="icon payCard"></i>
                       <div class="select-tab">
@@ -219,7 +285,7 @@
                     </div>
                   </label>
 
-                  <label>
+                  <label class="method-pay pay_2">
                     <div class="contain">
                       <i class="icon payCard2"></i>
                       <div class="select-tab">
@@ -231,12 +297,24 @@
                     </div>
                   </label>
 
-                  <label>
+                  <label class="method-pay pay_3">
                     <div class="contain">
                       <i class="icon payMoney"></i>
                       <div class="select-tab">
                         <p class="title">Наличными в магазине</p>
                         <p class="description">Оплата наличными в магазине</p>
+                      </div>
+                      <input name="group4" type="radio" />
+                      <span class="input-cirle"></span>
+                    </div>
+                  </label>
+
+                  <label class="method-pay pay-courier" style="display: none">
+                    <div class="contain">
+                      <i class="icon payMoney"></i>
+                      <div class="select-tab">
+                        <p class="title">Курьеру</p>
+                        <p class="description">Картой или наличными</p>
                       </div>
                       <input name="group4" type="radio" />
                       <span class="input-cirle"></span>
@@ -371,6 +449,21 @@ export default {
       $(this).parent('.grid-checkbox-label').find('label').removeClass('active');
       $(this).addClass('active');
     })
+
+    $('.final-order-processing .item-step .delivery-btn').click(function () {
+      $('.final-order-processing .delivery-tab').show();
+      $('.final-order-processing .pick-up_service_tab').hide();
+      $('.final-order-processing .method-pay.pay-courier').show();
+      $('.final-order-processing .method-pay.pay_2, .final-order-processing .method-pay.pay_3').hide();
+    })
+
+    $('.final-order-processing .item-step .pick-up_service_btn').click(function () {
+      $('.final-order-processing .delivery-tab').hide();
+      $('.final-order-processing .pick-up_service_tab').show();
+      $('.final-order-processing .method-pay.pay-courier').hide();
+      $('.final-order-processing .method-pay.pay_2, .final-order-processing .method-pay.pay_3').show();
+    })
+
   }
 }
 </script>
@@ -548,52 +641,50 @@ export default {
           }
         }
 
-        .user-buyer {
+        .form-grid {
 
-          .form-grid {
+          .item-input {
+            margin-bottom: 20px;
 
-            .item-input {
-              margin-bottom: 20px;
+            &:last-child {
+              margin-bottom: 0;
+            }
 
-              &:last-child {
-                margin-bottom: 0;
-              }
+            label {
+              font-size: 15px;
+              color: var(--color-gray);
 
-              label {
-                font-size: 15px;
-                color: var(--color-gray);
-
-                span {
-                  color: var(--color-red);
-                  font-size: 20px;
-                  line-height: 0;
-                }
-              }
-
-              input {
-                border: 1px solid var(--color-blackOpacity);
-                margin-top: 10px;
-                padding: 0 20px;
-                width: calc(100% - 40px);
-              }
-
-              textarea {
-                border: 1px solid var(--color-blackOpacity);
-                padding: 0 20px;
-                height: 150px;
-                resize: none;
-                margin-top: 10px;
-                margin-bottom: -6px;
+              span {
+                color: var(--color-red);
+                font-size: 20px;
+                line-height: 0;
               }
             }
 
-            .grid-two-col {
-              display: grid;
-              grid-template-columns: 1fr 1fr;
-              grid-gap: 30px;
+            input {
+              border: 1px solid var(--color-blackOpacity);
+              margin-top: 10px;
+              padding: 0 20px;
+              width: calc(100% - 40px);
+            }
+
+            textarea {
+              border: 1px solid var(--color-blackOpacity);
+              padding: 0 20px;
+              height: 150px;
+              resize: none;
+              margin-top: 10px;
+              margin-bottom: -6px;
             }
           }
+
+          .grid-two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 30px;
+          }
         }
+
       }
 
     }
