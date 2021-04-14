@@ -169,27 +169,13 @@
                   <div class="grid-two-col">
 
                     <div class="item-input">
-                      <label for="last_name">Область: <span>*</span></label>
-                      <input id="last_name" type="text" class="validate">
+                      <label >Область: <span>*</span></label>
+                      <input  type="text" class="validate">
                     </div>
 
                     <div class="item-input">
-                      <label for="last_name">Город: <span>*</span></label>
-                      <input id="last_name" type="text" class="validate">
-                    </div>
-
-                  </div>
-
-                  <div class="grid-two-col">
-
-                    <div class="item-input">
-                      <label for="last_name">Улица: <span>*</span></label>
-                      <input id="last_name" type="text" class="validate">
-                    </div>
-
-                    <div class="item-input">
-                      <label for="last_name">Дом/корпус: <span>*</span></label>
-                      <input id="last_name" type="text" class="validate">
+                      <label >Город: <span>*</span></label>
+                      <input  type="text" class="validate">
                     </div>
 
                   </div>
@@ -197,8 +183,13 @@
                   <div class="grid-two-col">
 
                     <div class="item-input">
-                      <label for="last_name">Квартира: <span>*</span></label>
-                      <input id="last_name" type="text" class="validate">
+                      <label >Улица: <span>*</span></label>
+                      <input  type="text" class="validate">
+                    </div>
+
+                    <div class="item-input">
+                      <label >Дом/корпус: <span>*</span></label>
+                      <input  type="text" class="validate">
                     </div>
 
                   </div>
@@ -206,13 +197,22 @@
                   <div class="grid-two-col">
 
                     <div class="item-input">
-                      <label for="last_name">Дата доставки: <span>*</span></label>
-                      <input id="last_name" type="text" class="validate">
+                      <label >Квартира: <span>*</span></label>
+                      <input  type="text" class="validate">
+                    </div>
+
+                  </div>
+
+                  <div class="grid-two-col">
+
+                    <div class="item-input">
+                      <label >Дата доставки: <span>*</span></label>
+                      <input  type="text" class="validate">
                     </div>
 
                     <div class="item-input">
-                      <label for="last_name">Время доставки: <span>*</span></label>
-                      <input id="last_name" type="text" class="validate">
+                      <label >Время доставки: <span>*</span></label>
+                      <input  type="text" class="validate">
                     </div>
 
                   </div>
@@ -340,20 +340,20 @@
                   <div class="form-grid">
 
                     <div class="item-input">
-                      <label for="last_name">ФИО: <span>*</span></label>
-                      <input id="last_name" type="text" class="validate">
+                      <label >ФИО: <span>*</span></label>
+                      <input  type="text" class="validate">
                     </div>
 
                     <div class="grid-two-col">
 
                       <div class="item-input">
-                        <label for="last_name">Телефон: <span>*</span></label>
-                        <input id="last_name" type="text" class="validate">
+                        <label >Телефон: <span>*</span></label>
+                        <input  type="text" class="validate">
                       </div>
 
                       <div class="item-input">
-                        <label for="last_name">E-Mail: <span>*</span></label>
-                        <input id="last_name" type="text" class="validate">
+                        <label >E-Mail: <span>*</span></label>
+                        <input  type="text" class="validate">
                       </div>
 
                     </div>
@@ -361,19 +361,19 @@
                     <div class="grid-two-col">
 
                       <div class="item-input">
-                        <label for="last_name">Область: <span>*</span></label>
-                        <input id="last_name" type="text" class="validate">
+                        <label >Область: <span>*</span></label>
+                        <input  type="text" class="validate">
                       </div>
 
                       <div class="item-input">
-                        <label for="last_name">Город: <span>*</span></label>
-                        <input id="last_name" type="text" class="validate">
+                        <label >Город: <span>*</span></label>
+                        <input  type="text" class="validate">
                       </div>
 
                     </div>
 
                     <div class="item-input">
-                      <label for="last_name">Телефон: <span>*</span></label>
+                      <label >Телефон: <span>*</span></label>
                       <textarea></textarea>
                     </div>
 

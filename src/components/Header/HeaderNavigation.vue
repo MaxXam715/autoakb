@@ -19,6 +19,7 @@
           <li><a class="link" href="/ChargingBattery">Зарядка АКБ</a></li>
           <li><a class="link" href="/DiagnosticsService">Выездная диагностика</a></li>
           <li><a class="link" href="/returnGoods">Возврат и обмен</a></li>
+          <li><a class="link modal-trigger" href="#modal-bu">Прием Б/У АКБ</a></li>
         </ul>
       </div>
       <a class="link-nav flex-Vcenter waves-effect waves-light" href="/DeliveryPayment">Доставка и оплата</a>

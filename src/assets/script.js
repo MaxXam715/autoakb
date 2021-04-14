@@ -15,8 +15,7 @@ export default function() {
         let $temp = $(this).text();
         let $city = $('.select-city .select-btn span');
 
-        $city.text('');
-        $city.append($temp);
+        $city.text('').append($temp);
 
         $('.dropdown-content.city a').removeClass('active');
         $('.dropdown-content.city a i').remove();

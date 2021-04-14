@@ -139,7 +139,7 @@
         </div>
 
         <div class="footer flex-Gcenter-sb">
-          <p class="discount">Ваша скидка: <span>750 руб</span></p>
+          <p class="discount">Ваша скидка: <span><span class="itog">0</span> руб</span></p>
           <button class="add-cart waves-effect waves-light" disabled>Сделать скидку</button>
         </div>
 
@@ -175,6 +175,38 @@ export default {
         })
 
       });
+
+
+      $('.acceptanceBatteries .form-select-akb .tabel-grid .content .item').click(function () {
+
+        var result = 0;
+
+        $('.acceptanceBatteries .form-select-akb .tabel-grid .content .item').each(function () {
+
+          if ($(this).find('.input-batteries').is(':checked') ) {
+
+            var priceAkb = $(this).find('.price').text();
+            var countAkb = $(this).find('.count-btn input').val();
+            var parsPrice = Number.parseInt(priceAkb);
+            var parsCount = Number.parseInt(countAkb);
+            var summ = parsPrice * parsCount;
+
+            console.log(priceAkb)
+            console.log(parsCount)
+            console.log(summ)
+
+            $(this).attr('counting', summ)
+
+            result+=parseInt( $(this).attr('counting') );
+            console.log('Итог ' + result)
+          }
+
+        })
+
+        $('.acceptanceBatteries .form-select-akb .discount .itog').text('').append(result);
+
+      })
+
     })
   }
 }
