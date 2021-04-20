@@ -2,7 +2,7 @@
 <div>
 
   <div class="btn-page-up" id="scroll_top">
-    <p class="title privet">НАВЕРХ</p>
+    <p class="title">НАВЕРХ</p>
     <div class="circle flex-center"><i class="icon arrowDown"></i></div>
   </div>
 
